@@ -1,3 +1,4 @@
+
 ## Motif-Preserving Dynamic Network Embedding via Temporal Shift Module
 
 ##### Our code is based on [DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks.](https://github.com/aravindsankar28/DySAT)
@@ -57,3 +58,4 @@ A logging directory ``log_dir`` is then created at ``./logs/<base_model>_<model>
 The output of the model, log files and evaluation results (on link prediction) will be stored in subdirectories of ``log_dir``, with date-wise logged files, along with the set of hyper-parameters and settings used in the experiment.
 
 The learnt embeddings will be stored in numpy formatted files at subdirectory ``output/`` and the results of downstream evaluation tasks will be stored in a subdirectory ``csv/``, within ``log_dir``.
+
