@@ -36,8 +36,6 @@ In order to use your own data, you have to provide:
     - minibatch iterators (``minibatch.py``, ``incremental_minibatch.py``);
 - ``eval/`` contains evaluation scripts that use simple logistic regression classifiers for link prediction based on the learnt node embeddings.
 
-The pre-processed versions of all datasets are available [here](https://drive.google.com/open?id=1TAWipN2y6uYf5BRtlKp-NY2BT3znH1YB).
-
 ### Running the code
 The code can be run by executing ``python run_script.py``. The default values of all parameters are set in the script file and can be specified as command line arguments. The most important arguments are ``min_time`` and ``max_time`` that specify the range of time steps to train the model.
 This script calls multiple instances of ``train.py`` (or ``train_incremental.py``) with time steps in this range (both
