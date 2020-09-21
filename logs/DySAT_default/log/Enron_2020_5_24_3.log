@@ -1,0 +1,10 @@
+05/24/2020 05:04:41 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 3), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 05:04:46 - INFO: # train: 0, # val: 4, # test: 16
+05/24/2020 05:05:41 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+05/24/2020 05:06:20 - INFO: Mini batch Iter: 0 train_loss= 6.06279
+05/24/2020 05:06:20 - INFO: Mini batch Iter: 0 graph_loss= 6.00050
+05/24/2020 05:06:20 - INFO: Mini batch Iter: 0 reg_loss= 0.06228
+05/24/2020 05:06:20 - INFO: Time for Mini batch : 12.9017438889
+05/24/2020 05:06:20 - INFO: Time for epoch : 12.8980350494

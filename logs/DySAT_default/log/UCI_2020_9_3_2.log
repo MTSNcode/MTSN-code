@@ -1,0 +1,310 @@
+09/03/2020 00:10:04 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:10:07 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:10:11 - INFO: Mini batch Iter: 0 train_loss= 1.38525
+09/03/2020 00:10:11 - INFO: Mini batch Iter: 0 graph_loss= 1.38525
+09/03/2020 00:10:11 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:10:11 - INFO: Time for Mini batch : 0.902741193771
+09/03/2020 00:10:11 - INFO: Mini batch Iter: 1 train_loss= 1.38473
+09/03/2020 00:10:11 - INFO: Mini batch Iter: 1 graph_loss= 1.38473
+09/03/2020 00:10:11 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:10:11 - INFO: Time for Mini batch : 0.146666049957
+09/03/2020 00:10:11 - INFO: Time for epoch : 1.04833602905
+09/03/2020 00:10:12 - INFO: Val results at epoch 0: Measure (HAD) AUC: 0.850215079945
+09/03/2020 00:10:12 - INFO: Test results at epoch 0: Measure (HAD) AUC: 0.826752428104
+09/03/2020 00:10:12 - INFO: Mini batch Iter: 0 train_loss= 1.38429
+09/03/2020 00:10:12 - INFO: Mini batch Iter: 0 graph_loss= 1.38429
+09/03/2020 00:10:12 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:10:12 - INFO: Time for Mini batch : 0.245958805084
+09/03/2020 00:10:48 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:11:01 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:11:15 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:11:22 - INFO: Mini batch Iter: 0 train_loss= 1.38525
+09/03/2020 00:11:22 - INFO: Mini batch Iter: 0 graph_loss= 1.38525
+09/03/2020 00:11:22 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:22 - INFO: Time for Mini batch : 2.60897517204
+09/03/2020 00:11:23 - INFO: Mini batch Iter: 1 train_loss= 1.38473
+09/03/2020 00:11:23 - INFO: Mini batch Iter: 1 graph_loss= 1.38473
+09/03/2020 00:11:23 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:23 - INFO: Time for Mini batch : 1.01956892014
+09/03/2020 00:11:23 - INFO: Time for epoch : 3.62710309029
+09/03/2020 00:11:24 - INFO: Val results at epoch 0: Measure (HAD) AUC: 0.850215079945
+09/03/2020 00:11:24 - INFO: Test results at epoch 0: Measure (HAD) AUC: 0.826752428104
+09/03/2020 00:11:25 - INFO: Mini batch Iter: 0 train_loss= 1.38429
+09/03/2020 00:11:25 - INFO: Mini batch Iter: 0 graph_loss= 1.38429
+09/03/2020 00:11:25 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:25 - INFO: Time for Mini batch : 1.22644495964
+09/03/2020 00:11:26 - INFO: Mini batch Iter: 1 train_loss= 1.38592
+09/03/2020 00:11:26 - INFO: Mini batch Iter: 1 graph_loss= 1.38592
+09/03/2020 00:11:26 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:26 - INFO: Time for Mini batch : 0.920654058456
+09/03/2020 00:11:26 - INFO: Time for epoch : 2.14574813843
+09/03/2020 00:11:26 - INFO: Val results at epoch 1: Measure (HAD) AUC: 0.848368638909
+09/03/2020 00:11:26 - INFO: Test results at epoch 1: Measure (HAD) AUC: 0.826173019867
+09/03/2020 00:11:27 - INFO: Mini batch Iter: 0 train_loss= 1.38448
+09/03/2020 00:11:27 - INFO: Mini batch Iter: 0 graph_loss= 1.38448
+09/03/2020 00:11:27 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:27 - INFO: Time for Mini batch : 0.904476165771
+09/03/2020 00:11:29 - INFO: Mini batch Iter: 1 train_loss= 1.38468
+09/03/2020 00:11:29 - INFO: Mini batch Iter: 1 graph_loss= 1.38468
+09/03/2020 00:11:29 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:29 - INFO: Time for Mini batch : 0.945415973663
+09/03/2020 00:11:29 - INFO: Time for epoch : 1.84876585007
+09/03/2020 00:11:29 - INFO: Val results at epoch 2: Measure (HAD) AUC: 0.846055514974
+09/03/2020 00:11:29 - INFO: Test results at epoch 2: Measure (HAD) AUC: 0.824475376277
+09/03/2020 00:11:30 - INFO: Mini batch Iter: 0 train_loss= 1.38379
+09/03/2020 00:11:30 - INFO: Mini batch Iter: 0 graph_loss= 1.38379
+09/03/2020 00:11:30 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:30 - INFO: Time for Mini batch : 0.947730064392
+09/03/2020 00:11:31 - INFO: Mini batch Iter: 1 train_loss= 1.38521
+09/03/2020 00:11:31 - INFO: Mini batch Iter: 1 graph_loss= 1.38521
+09/03/2020 00:11:31 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:31 - INFO: Time for Mini batch : 1.12518310547
+09/03/2020 00:11:31 - INFO: Time for epoch : 2.07173514366
+09/03/2020 00:11:32 - INFO: Val results at epoch 3: Measure (HAD) AUC: 0.843133674215
+09/03/2020 00:11:32 - INFO: Test results at epoch 3: Measure (HAD) AUC: 0.822804786769
+09/03/2020 00:11:33 - INFO: Mini batch Iter: 0 train_loss= 1.38368
+09/03/2020 00:11:33 - INFO: Mini batch Iter: 0 graph_loss= 1.38368
+09/03/2020 00:11:33 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:33 - INFO: Time for Mini batch : 0.916960954666
+09/03/2020 00:11:34 - INFO: Mini batch Iter: 1 train_loss= 1.38558
+09/03/2020 00:11:34 - INFO: Mini batch Iter: 1 graph_loss= 1.38558
+09/03/2020 00:11:34 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:34 - INFO: Time for Mini batch : 1.0646340847
+09/03/2020 00:11:34 - INFO: Time for epoch : 1.98059296608
+09/03/2020 00:11:34 - INFO: Val results at epoch 4: Measure (HAD) AUC: 0.8417944972
+09/03/2020 00:11:34 - INFO: Test results at epoch 4: Measure (HAD) AUC: 0.821975128281
+09/03/2020 00:11:35 - INFO: Mini batch Iter: 0 train_loss= 1.38301
+09/03/2020 00:11:35 - INFO: Mini batch Iter: 0 graph_loss= 1.38301
+09/03/2020 00:11:35 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:35 - INFO: Time for Mini batch : 0.950550794601
+09/03/2020 00:11:36 - INFO: Mini batch Iter: 1 train_loss= 1.38235
+09/03/2020 00:11:36 - INFO: Mini batch Iter: 1 graph_loss= 1.38235
+09/03/2020 00:11:36 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:36 - INFO: Time for Mini batch : 0.924890041351
+09/03/2020 00:11:36 - INFO: Time for epoch : 1.87428808212
+09/03/2020 00:11:37 - INFO: Val results at epoch 5: Measure (HAD) AUC: 0.839927765603
+09/03/2020 00:11:37 - INFO: Test results at epoch 5: Measure (HAD) AUC: 0.820678786895
+09/03/2020 00:11:38 - INFO: Mini batch Iter: 0 train_loss= 1.38397
+09/03/2020 00:11:38 - INFO: Mini batch Iter: 0 graph_loss= 1.38397
+09/03/2020 00:11:38 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:38 - INFO: Time for Mini batch : 0.928784132004
+09/03/2020 00:11:39 - INFO: Mini batch Iter: 1 train_loss= 1.38279
+09/03/2020 00:11:39 - INFO: Mini batch Iter: 1 graph_loss= 1.38279
+09/03/2020 00:11:39 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:39 - INFO: Time for Mini batch : 0.896183013916
+09/03/2020 00:11:39 - INFO: Time for epoch : 1.82393503189
+09/03/2020 00:11:39 - INFO: Val results at epoch 6: Measure (HAD) AUC: 0.837350864378
+09/03/2020 00:11:39 - INFO: Test results at epoch 6: Measure (HAD) AUC: 0.819244920596
+09/03/2020 00:11:40 - INFO: Mini batch Iter: 0 train_loss= 1.38287
+09/03/2020 00:11:40 - INFO: Mini batch Iter: 0 graph_loss= 1.38287
+09/03/2020 00:11:40 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:40 - INFO: Time for Mini batch : 0.883019924164
+09/03/2020 00:11:41 - INFO: Mini batch Iter: 1 train_loss= 1.38097
+09/03/2020 00:11:41 - INFO: Mini batch Iter: 1 graph_loss= 1.38097
+09/03/2020 00:11:41 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:41 - INFO: Time for Mini batch : 0.943098068237
+09/03/2020 00:11:41 - INFO: Time for epoch : 1.82491898537
+09/03/2020 00:11:41 - INFO: Val results at epoch 7: Measure (HAD) AUC: 0.834449314179
+09/03/2020 00:11:41 - INFO: Test results at epoch 7: Measure (HAD) AUC: 0.817754691629
+09/03/2020 00:11:42 - INFO: Mini batch Iter: 0 train_loss= 1.38166
+09/03/2020 00:11:42 - INFO: Mini batch Iter: 0 graph_loss= 1.38166
+09/03/2020 00:11:42 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:42 - INFO: Time for Mini batch : 0.909790039062
+09/03/2020 00:11:43 - INFO: Mini batch Iter: 1 train_loss= 1.38132
+09/03/2020 00:11:43 - INFO: Mini batch Iter: 1 graph_loss= 1.38132
+09/03/2020 00:11:43 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:43 - INFO: Time for Mini batch : 0.943662881851
+09/03/2020 00:11:43 - INFO: Time for epoch : 1.8520257473
+09/03/2020 00:11:44 - INFO: Val results at epoch 8: Measure (HAD) AUC: 0.831446311176
+09/03/2020 00:11:44 - INFO: Test results at epoch 8: Measure (HAD) AUC: 0.816066066066
+09/03/2020 00:11:45 - INFO: Mini batch Iter: 0 train_loss= 1.38318
+09/03/2020 00:11:45 - INFO: Mini batch Iter: 0 graph_loss= 1.38318
+09/03/2020 00:11:45 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:45 - INFO: Time for Mini batch : 0.923800945282
+09/03/2020 00:11:46 - INFO: Mini batch Iter: 1 train_loss= 1.37194
+09/03/2020 00:11:46 - INFO: Mini batch Iter: 1 graph_loss= 1.37194
+09/03/2020 00:11:46 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:11:46 - INFO: Time for Mini batch : 0.936998128891
+09/03/2020 00:11:46 - INFO: Time for epoch : 1.859416008
+09/03/2020 00:11:46 - INFO: Val results at epoch 9: Measure (HAD) AUC: 0.828970862755
+09/03/2020 00:11:46 - INFO: Test results at epoch 9: Measure (HAD) AUC: 0.814711107504
+09/03/2020 00:11:47 - INFO: Mini batch Iter: 0 train_loss= 1.38309
+09/03/2020 00:11:47 - INFO: Mini batch Iter: 0 graph_loss= 1.38309
+09/03/2020 00:11:47 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:11:47 - INFO: Time for Mini batch : 0.949995994568
+09/03/2020 00:14:50 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:14:58 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:15:22 - INFO: Mini batch Iter: 0 train_loss= 1.38525
+09/03/2020 00:15:22 - INFO: Mini batch Iter: 0 graph_loss= 1.38525
+09/03/2020 00:15:22 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 00:15:22 - INFO: Time for Mini batch : 2.02271986008
+09/03/2020 00:15:23 - INFO: Mini batch Iter: 1 train_loss= 1.38473
+09/03/2020 00:15:23 - INFO: Mini batch Iter: 1 graph_loss= 1.38473
+09/03/2020 00:15:23 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 00:15:23 - INFO: Time for Mini batch : 0.992203950882
+09/03/2020 00:15:23 - INFO: Time for epoch : 3.01256990433
+09/03/2020 00:15:23 - INFO: Val results at epoch 0: Measure (HAD) AUC: 0.850215079945
+09/03/2020 00:15:23 - INFO: Test results at epoch 0: Measure (HAD) AUC: 0.826752428104
+09/03/2020 00:15:58 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:16:09 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:19:20 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:19:24 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:19:26 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:19:28 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:20:01 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:20:09 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:27:29 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:27:49 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:28:50 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:28:52 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:32:41 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:32:50 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:42:21 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:43:26 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:44:16 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:44:25 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:44:33 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:44:39 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:44:47 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:45:07 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:45:08 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:45:14 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:46:14 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:46:22 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:46:27 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:46:42 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:47:02 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:04 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:04 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:24 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:27 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:30 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:56 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:48:59 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:49:07 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:49:12 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:49:16 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:49:31 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:50:36 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:50:45 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:51:01 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:51:38 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:54:36 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:54:44 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:54:54 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:55:02 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:56:46 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:56:54 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 00:58:15 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 00:59:06 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 00:59:15 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:02:33 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:02:43 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:03:18 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:03:26 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:05:24 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:05:24 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:06:32 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:06:32 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:06:38 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:06:40 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:23:23 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:23:31 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:24:44 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:26:44 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:27:04 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:27:40 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:27:44 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:28:09 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:28:32 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:29:38 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:29:47 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:29:47 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:29:49 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:29:50 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:29:50 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:32:12 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:32:20 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:32:33 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:32:40 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:32:54 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:33:05 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:33:14 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:33:24 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:34:11 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:34:13 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:34:23 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:34:25 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:35:13 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:35:17 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:35:57 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:35:57 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:36:29 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:37:00 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:40:10 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:40:19 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:40:46 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:40:54 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:41:27 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 30), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+09/03/2020 01:41:36 - INFO: # train: 222, # val: 222, # test: 666
+09/03/2020 01:41:54 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:41:55 - WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+09/03/2020 01:42:15 - INFO: Mini batch Iter: 0 train_loss= 1.38525
+09/03/2020 01:42:15 - INFO: Mini batch Iter: 0 graph_loss= 1.38525
+09/03/2020 01:42:15 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 01:42:15 - INFO: Time for Mini batch : 2.01905417442
+09/03/2020 01:42:16 - INFO: Mini batch Iter: 1 train_loss= 1.38473
+09/03/2020 01:42:16 - INFO: Mini batch Iter: 1 graph_loss= 1.38473
+09/03/2020 01:42:16 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 01:42:16 - INFO: Time for Mini batch : 0.909358978271
+09/03/2020 01:42:16 - INFO: Time for epoch : 2.92695426941
+09/03/2020 01:42:16 - INFO: Val results at epoch 0: Measure (HAD) AUC: 0.850215079945
+09/03/2020 01:42:16 - INFO: Test results at epoch 0: Measure (HAD) AUC: 0.826752428104
+09/03/2020 01:42:17 - INFO: Mini batch Iter: 0 train_loss= 1.38419
+09/03/2020 01:42:17 - INFO: Mini batch Iter: 0 graph_loss= 1.38419
+09/03/2020 01:42:17 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 01:42:17 - INFO: Time for Mini batch : 1.14949297905
+09/03/2020 01:42:19 - INFO: Mini batch Iter: 1 train_loss= 1.38587
+09/03/2020 01:42:19 - INFO: Mini batch Iter: 1 graph_loss= 1.38587
+09/03/2020 01:42:19 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 01:42:19 - INFO: Time for Mini batch : 1.14151000977
+09/03/2020 01:42:19 - INFO: Time for epoch : 2.28937530518
+09/03/2020 01:42:19 - INFO: Val results at epoch 1: Measure (HAD) AUC: 0.848449801153
+09/03/2020 01:42:19 - INFO: Test results at epoch 1: Measure (HAD) AUC: 0.826281236191
+09/03/2020 01:42:20 - INFO: Mini batch Iter: 0 train_loss= 1.38464
+09/03/2020 01:42:20 - INFO: Mini batch Iter: 0 graph_loss= 1.38464
+09/03/2020 01:42:20 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 01:42:20 - INFO: Time for Mini batch : 0.927921056747
+09/03/2020 01:42:21 - INFO: Mini batch Iter: 1 train_loss= 1.38475
+09/03/2020 01:42:21 - INFO: Mini batch Iter: 1 graph_loss= 1.38475
+09/03/2020 01:42:21 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 01:42:21 - INFO: Time for Mini batch : 0.885094881058
+09/03/2020 01:42:21 - INFO: Time for epoch : 1.81195902824
+09/03/2020 01:42:21 - INFO: Val results at epoch 2: Measure (HAD) AUC: 0.846238130022
+09/03/2020 01:42:21 - INFO: Test results at epoch 2: Measure (HAD) AUC: 0.824671518365
+09/03/2020 01:42:22 - INFO: Mini batch Iter: 0 train_loss= 1.38384
+09/03/2020 01:42:22 - INFO: Mini batch Iter: 0 graph_loss= 1.38384
+09/03/2020 01:42:22 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 01:42:22 - INFO: Time for Mini batch : 0.846498012543
+09/03/2020 01:42:23 - INFO: Mini batch Iter: 1 train_loss= 1.38519
+09/03/2020 01:42:23 - INFO: Mini batch Iter: 1 graph_loss= 1.38519
+09/03/2020 01:42:23 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 01:42:23 - INFO: Time for Mini batch : 0.866916894913
+09/03/2020 01:42:23 - INFO: Time for epoch : 1.71197891235
+09/03/2020 01:42:24 - INFO: Val results at epoch 3: Measure (HAD) AUC: 0.843417742066
+09/03/2020 01:42:24 - INFO: Test results at epoch 3: Measure (HAD) AUC: 0.823000928857
+09/03/2020 01:42:25 - INFO: Mini batch Iter: 0 train_loss= 1.38370
+09/03/2020 01:42:25 - INFO: Mini batch Iter: 0 graph_loss= 1.38370
+09/03/2020 01:42:25 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 01:42:25 - INFO: Time for Mini batch : 1.02228116989
+09/03/2020 01:42:26 - INFO: Mini batch Iter: 1 train_loss= 1.38570
+09/03/2020 01:42:26 - INFO: Mini batch Iter: 1 graph_loss= 1.38570
+09/03/2020 01:42:26 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+09/03/2020 01:42:26 - INFO: Time for Mini batch : 0.869709968567
+09/03/2020 01:42:26 - INFO: Time for epoch : 1.89052581787
+09/03/2020 01:42:26 - INFO: Val results at epoch 4: Measure (HAD) AUC: 0.842200308417
+09/03/2020 01:42:26 - INFO: Test results at epoch 4: Measure (HAD) AUC: 0.822166761356
+09/03/2020 01:42:27 - INFO: Mini batch Iter: 0 train_loss= 1.38308
+09/03/2020 01:42:27 - INFO: Mini batch Iter: 0 graph_loss= 1.38308
+09/03/2020 01:42:27 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+09/03/2020 01:42:27 - INFO: Time for Mini batch : 1.07023596764

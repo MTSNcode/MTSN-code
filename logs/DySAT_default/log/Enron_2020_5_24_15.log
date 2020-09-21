@@ -1,0 +1,177 @@
+05/24/2020 18:20:07 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 18:20:39 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 18:22:17 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+05/24/2020 18:25:16 - INFO: Mini batch Iter: 0 train_loss= 22.67460
+05/24/2020 18:25:16 - INFO: Mini batch Iter: 0 graph_loss= 22.59944
+05/24/2020 18:25:16 - INFO: Mini batch Iter: 0 reg_loss= 0.07517
+05/24/2020 18:25:16 - INFO: Time for Mini batch : 67.786646843
+05/24/2020 18:25:16 - INFO: Time for epoch : 67.7564868927
+05/24/2020 18:25:28 - INFO: Val results at epoch 0: Measure (HAD) Val AUC 0.44298245614, Val F1 0.427083333333, Val PR-AUC 0.515076737817
+05/24/2020 18:25:28 - INFO: Test results at epoch 0: Measure (HAD) Test AUC 0.529200882047, Test F1 0.522639068564, Test PR-AUC 0.582407620855
+05/24/2020 18:25:29 - INFO: Mini batch Iter: 0 train_loss= 21.40008
+05/24/2020 18:25:29 - INFO: Mini batch Iter: 0 graph_loss= 21.32499
+05/24/2020 18:25:29 - INFO: Mini batch Iter: 0 reg_loss= 0.07510
+05/24/2020 18:25:29 - INFO: Time for Mini batch : 0.475993871689
+05/24/2020 18:25:29 - INFO: Time for epoch : 0.470577001572
+05/24/2020 18:25:30 - INFO: Val results at epoch 1: Measure (HAD) Val AUC 0.439364035088, Val F1 0.427083333333, Val PR-AUC 0.515930510209
+05/24/2020 18:25:30 - INFO: Test results at epoch 1: Measure (HAD) Test AUC 0.531142196188, Test F1 0.512953367876, Test PR-AUC 0.582914166269
+05/24/2020 18:25:31 - INFO: Mini batch Iter: 0 train_loss= 20.48708
+05/24/2020 18:25:31 - INFO: Mini batch Iter: 0 graph_loss= 20.41206
+05/24/2020 18:25:31 - INFO: Mini batch Iter: 0 reg_loss= 0.07503
+05/24/2020 18:25:31 - INFO: Time for Mini batch : 0.572026968002
+05/24/2020 18:25:31 - INFO: Time for epoch : 0.566969156265
+05/24/2020 18:25:31 - INFO: Val results at epoch 2: Measure (HAD) Val AUC 0.438815789474, Val F1 0.445595854922, Val PR-AUC 0.5177867875
+05/24/2020 18:25:31 - INFO: Test results at epoch 2: Measure (HAD) Test AUC 0.532846764702, Test F1 0.510362694301, Test PR-AUC 0.583504826341
+05/24/2020 18:25:32 - INFO: Mini batch Iter: 0 train_loss= 19.91967
+05/24/2020 18:25:32 - INFO: Mini batch Iter: 0 graph_loss= 19.84471
+05/24/2020 18:25:32 - INFO: Mini batch Iter: 0 reg_loss= 0.07496
+05/24/2020 18:25:32 - INFO: Time for Mini batch : 0.529006004333
+05/24/2020 18:25:32 - INFO: Time for epoch : 0.524003982544
+05/24/2020 18:25:33 - INFO: Val results at epoch 3: Measure (HAD) Val AUC 0.443859649123, Val F1 0.458333333333, Val PR-AUC 0.523114670622
+05/24/2020 18:25:33 - INFO: Test results at epoch 3: Measure (HAD) Test AUC 0.53291440631, Test F1 0.507772020725, Test PR-AUC 0.582443366237
+05/24/2020 18:25:34 - INFO: Mini batch Iter: 0 train_loss= 19.72918
+05/24/2020 18:25:34 - INFO: Mini batch Iter: 0 graph_loss= 19.65429
+05/24/2020 18:25:34 - INFO: Mini batch Iter: 0 reg_loss= 0.07489
+05/24/2020 18:25:34 - INFO: Time for Mini batch : 0.527912139893
+05/24/2020 18:25:34 - INFO: Time for epoch : 0.523662090302
+05/24/2020 18:25:34 - INFO: Val results at epoch 4: Measure (HAD) Val AUC 0.449122807018, Val F1 0.447916666667, Val PR-AUC 0.527972655551
+05/24/2020 18:25:34 - INFO: Test results at epoch 4: Measure (HAD) Test AUC 0.533083510329, Test F1 0.5, Test PR-AUC 0.582409279414
+05/24/2020 18:25:35 - INFO: Mini batch Iter: 0 train_loss= 19.50710
+05/24/2020 18:25:35 - INFO: Mini batch Iter: 0 graph_loss= 19.43227
+05/24/2020 18:25:35 - INFO: Mini batch Iter: 0 reg_loss= 0.07483
+05/24/2020 18:25:35 - INFO: Time for Mini batch : 0.486750841141
+05/24/2020 18:25:35 - INFO: Time for epoch : 0.481135845184
+05/24/2020 18:25:35 - INFO: Val results at epoch 5: Measure (HAD) Val AUC 0.453070175439, Val F1 0.447916666667, Val PR-AUC 0.533333893562
+05/24/2020 18:25:35 - INFO: Test results at epoch 5: Measure (HAD) Test AUC 0.533103802811, Test F1 0.507772020725, Test PR-AUC 0.581991080347
+05/24/2020 18:25:36 - INFO: Mini batch Iter: 0 train_loss= 19.41162
+05/24/2020 18:25:36 - INFO: Mini batch Iter: 0 graph_loss= 19.33685
+05/24/2020 18:25:36 - INFO: Mini batch Iter: 0 reg_loss= 0.07477
+05/24/2020 18:25:36 - INFO: Time for Mini batch : 0.55451798439
+05/24/2020 18:25:36 - INFO: Time for epoch : 0.549909114838
+05/24/2020 18:25:37 - INFO: Val results at epoch 6: Measure (HAD) Val AUC 0.459429824561, Val F1 0.447916666667, Val PR-AUC 0.538836999515
+05/24/2020 18:25:37 - INFO: Test results at epoch 6: Measure (HAD) Test AUC 0.533245850187, Test F1 0.507772020725, Test PR-AUC 0.581983811441
+05/24/2020 18:25:38 - INFO: Mini batch Iter: 0 train_loss= 19.27001
+05/24/2020 18:25:38 - INFO: Mini batch Iter: 0 graph_loss= 19.19529
+05/24/2020 18:25:38 - INFO: Mini batch Iter: 0 reg_loss= 0.07472
+05/24/2020 18:25:38 - INFO: Time for Mini batch : 0.479418039322
+05/24/2020 18:25:38 - INFO: Time for epoch : 0.473589897156
+05/24/2020 18:25:38 - INFO: Val results at epoch 7: Measure (HAD) Val AUC 0.462390350877, Val F1 0.458333333333, Val PR-AUC 0.54327102805
+05/24/2020 18:25:38 - INFO: Test results at epoch 7: Measure (HAD) Test AUC 0.532177112786, Test F1 0.509702457956, Test PR-AUC 0.581059564946
+05/24/2020 18:25:39 - INFO: Mini batch Iter: 0 train_loss= 19.26087
+05/24/2020 18:25:39 - INFO: Mini batch Iter: 0 graph_loss= 19.18620
+05/24/2020 18:25:39 - INFO: Mini batch Iter: 0 reg_loss= 0.07467
+05/24/2020 18:25:39 - INFO: Time for Mini batch : 0.488033056259
+05/24/2020 18:25:39 - INFO: Time for epoch : 0.483237028122
+05/24/2020 18:25:39 - INFO: Val results at epoch 8: Measure (HAD) Val AUC 0.463596491228, Val F1 0.458333333333, Val PR-AUC 0.54703909398
+05/24/2020 18:25:39 - INFO: Test results at epoch 8: Measure (HAD) Test AUC 0.531737442336, Test F1 0.50518134715, Test PR-AUC 0.580752800748
+05/24/2020 18:25:40 - INFO: Mini batch Iter: 0 train_loss= 19.17018
+05/24/2020 18:25:40 - INFO: Mini batch Iter: 0 graph_loss= 19.09556
+05/24/2020 18:25:40 - INFO: Mini batch Iter: 0 reg_loss= 0.07462
+05/24/2020 18:25:40 - INFO: Time for Mini batch : 0.484786987305
+05/24/2020 18:25:40 - INFO: Time for epoch : 0.48069691658
+05/24/2020 18:25:41 - INFO: Val results at epoch 9: Measure (HAD) Val AUC 0.469298245614, Val F1 0.46875, Val PR-AUC 0.552280256471
+05/24/2020 18:25:41 - INFO: Test results at epoch 9: Measure (HAD) Test AUC 0.529829948998, Test F1 0.49481865285, Test PR-AUC 0.579332437294
+05/24/2020 18:25:41 - INFO: Mini batch Iter: 0 train_loss= 19.09276
+05/24/2020 18:25:41 - INFO: Mini batch Iter: 0 graph_loss= 19.01818
+05/24/2020 18:25:41 - INFO: Mini batch Iter: 0 reg_loss= 0.07458
+05/24/2020 18:25:41 - INFO: Time for Mini batch : 0.508130073547
+05/24/2020 18:25:41 - INFO: Time for epoch : 0.503042936325
+05/24/2020 18:25:42 - INFO: Val results at epoch 10: Measure (HAD) Val AUC 0.473026315789, Val F1 0.46875, Val PR-AUC 0.556531088957
+05/24/2020 18:25:42 - INFO: Test results at epoch 10: Measure (HAD) Test AUC 0.528504173487, Test F1 0.49935316947, Test PR-AUC 0.578588668996
+05/24/2020 18:25:43 - INFO: Mini batch Iter: 0 train_loss= 18.98901
+05/24/2020 18:25:43 - INFO: Mini batch Iter: 0 graph_loss= 18.91447
+05/24/2020 18:25:43 - INFO: Mini batch Iter: 0 reg_loss= 0.07454
+05/24/2020 18:25:43 - INFO: Time for Mini batch : 0.493276834488
+05/24/2020 18:25:43 - INFO: Time for epoch : 0.490167856216
+05/24/2020 18:25:43 - INFO: Val results at epoch 11: Measure (HAD) Val AUC 0.471929824561, Val F1 0.479166666667, Val PR-AUC 0.557265604532
+05/24/2020 18:25:43 - INFO: Test results at epoch 11: Measure (HAD) Test AUC 0.527252803745, Test F1 0.502590673575, Test PR-AUC 0.577601977137
+05/24/2020 18:25:44 - INFO: Mini batch Iter: 0 train_loss= 18.98627
+05/24/2020 18:25:44 - INFO: Mini batch Iter: 0 graph_loss= 18.91175
+05/24/2020 18:25:44 - INFO: Mini batch Iter: 0 reg_loss= 0.07451
+05/24/2020 18:25:44 - INFO: Time for Mini batch : 0.509058952332
+05/24/2020 18:25:44 - INFO: Time for epoch : 0.505149126053
+05/24/2020 18:25:44 - INFO: Val results at epoch 12: Measure (HAD) Val AUC 0.475877192982, Val F1 0.479166666667, Val PR-AUC 0.560905505886
+05/24/2020 18:25:44 - INFO: Test results at epoch 12: Measure (HAD) Test AUC 0.526211122986, Test F1 0.502590673575, Test PR-AUC 0.577650681807
+05/24/2020 18:25:45 - INFO: Mini batch Iter: 0 train_loss= 18.96277
+05/24/2020 18:25:45 - INFO: Mini batch Iter: 0 graph_loss= 18.88828
+05/24/2020 18:25:45 - INFO: Mini batch Iter: 0 reg_loss= 0.07449
+05/24/2020 18:25:45 - INFO: Time for Mini batch : 0.494478940964
+05/24/2020 18:25:45 - INFO: Time for epoch : 0.489175081253
+05/24/2020 18:25:46 - INFO: Val results at epoch 13: Measure (HAD) Val AUC 0.478947368421, Val F1 0.479166666667, Val PR-AUC 0.565874694499
+05/24/2020 18:25:46 - INFO: Test results at epoch 13: Measure (HAD) Test AUC 0.52562940516, Test F1 0.512953367876, Test PR-AUC 0.577789978464
+05/24/2020 18:25:47 - INFO: Mini batch Iter: 0 train_loss= 18.87111
+05/24/2020 18:25:47 - INFO: Mini batch Iter: 0 graph_loss= 18.79663
+05/24/2020 18:25:47 - INFO: Mini batch Iter: 0 reg_loss= 0.07448
+05/24/2020 18:25:47 - INFO: Time for Mini batch : 0.558233976364
+05/24/2020 18:25:47 - INFO: Time for epoch : 0.553144931793
+05/24/2020 18:25:47 - INFO: Val results at epoch 14: Measure (HAD) Val AUC 0.476973684211, Val F1 0.489583333333, Val PR-AUC 0.565162047182
+05/24/2020 18:25:47 - INFO: Test results at epoch 14: Measure (HAD) Test AUC 0.524939460761, Test F1 0.512953367876, Test PR-AUC 0.577114098881
+05/24/2020 18:25:49 - INFO: Mini batch Iter: 0 train_loss= 18.80136
+05/24/2020 18:25:49 - INFO: Mini batch Iter: 0 graph_loss= 18.72690
+05/24/2020 18:25:49 - INFO: Mini batch Iter: 0 reg_loss= 0.07447
+05/24/2020 18:25:49 - INFO: Time for Mini batch : 0.953642845154
+05/24/2020 18:25:49 - INFO: Time for epoch : 0.949981927872
+05/24/2020 18:25:49 - INFO: Val results at epoch 15: Measure (HAD) Val AUC 0.475, Val F1 0.46875, Val PR-AUC 0.56473242509
+05/24/2020 18:25:49 - INFO: Test results at epoch 15: Measure (HAD) Test AUC 0.526698142561, Test F1 0.515544041451, Test PR-AUC 0.578471912158
+05/24/2020 18:25:50 - INFO: Mini batch Iter: 0 train_loss= 18.80082
+05/24/2020 18:25:50 - INFO: Mini batch Iter: 0 graph_loss= 18.72635
+05/24/2020 18:25:50 - INFO: Mini batch Iter: 0 reg_loss= 0.07446
+05/24/2020 18:25:50 - INFO: Time for Mini batch : 0.48353099823
+05/24/2020 18:25:50 - INFO: Time for epoch : 0.478997945786
+05/24/2020 18:25:50 - INFO: Val results at epoch 16: Measure (HAD) Val AUC 0.466447368421, Val F1 0.447916666667, Val PR-AUC 0.55897933794
+05/24/2020 18:25:50 - INFO: Test results at epoch 16: Measure (HAD) Test AUC 0.529951703892, Test F1 0.517464424321, Test PR-AUC 0.580561342547
+05/24/2020 18:25:51 - INFO: Mini batch Iter: 0 train_loss= 18.73455
+05/24/2020 18:25:51 - INFO: Mini batch Iter: 0 graph_loss= 18.66008
+05/24/2020 18:25:51 - INFO: Mini batch Iter: 0 reg_loss= 0.07447
+05/24/2020 18:25:51 - INFO: Time for Mini batch : 0.480766057968
+05/24/2020 18:25:51 - INFO: Time for epoch : 0.476334095001
+05/24/2020 18:25:52 - INFO: Val results at epoch 17: Measure (HAD) Val AUC 0.459649122807, Val F1 0.4375, Val PR-AUC 0.555510539341
+05/24/2020 18:25:52 - INFO: Test results at epoch 17: Measure (HAD) Test AUC 0.534537804895, Test F1 0.523316062176, Test PR-AUC 0.582810012215
+05/24/2020 18:25:53 - INFO: Mini batch Iter: 0 train_loss= 18.59897
+05/24/2020 18:25:53 - INFO: Mini batch Iter: 0 graph_loss= 18.52449
+05/24/2020 18:25:53 - INFO: Mini batch Iter: 0 reg_loss= 0.07448
+05/24/2020 18:25:53 - INFO: Time for Mini batch : 0.490286111832
+05/24/2020 18:25:53 - INFO: Time for epoch : 0.484748125076
+05/24/2020 18:25:53 - INFO: Val results at epoch 18: Measure (HAD) Val AUC 0.452521929825, Val F1 0.427083333333, Val PR-AUC 0.550971560666
+05/24/2020 18:25:53 - INFO: Test results at epoch 18: Measure (HAD) Test AUC 0.537913121119, Test F1 0.525906735751, Test PR-AUC 0.58470300186
+05/24/2020 18:25:54 - INFO: Mini batch Iter: 0 train_loss= 18.60530
+05/24/2020 18:25:54 - INFO: Mini batch Iter: 0 graph_loss= 18.53079
+05/24/2020 18:25:54 - INFO: Mini batch Iter: 0 reg_loss= 0.07450
+05/24/2020 18:25:54 - INFO: Time for Mini batch : 0.485377073288
+05/24/2020 18:25:54 - INFO: Time for epoch : 0.480292081833
+05/24/2020 18:25:54 - INFO: Val results at epoch 19: Measure (HAD) Val AUC 0.445614035088, Val F1 0.427083333333, Val PR-AUC 0.548588058547
+05/24/2020 18:25:54 - INFO: Test results at epoch 19: Measure (HAD) Test AUC 0.543297393092, Test F1 0.533678756477, Test PR-AUC 0.587217405108
+05/24/2020 18:25:54 - INFO: Best epoch 19
+05/24/2020 18:25:55 - INFO: Best epoch Val AUC 0.445614035088, Val F1 0.427083333333, Val PR-AUC 0.548588058547
+
+05/24/2020 18:25:55 - INFO: Best epoch Test AUC 0.543297393092, Test F1 0.533678756477, Test PR-AUC 0.587217405108
+
+05/24/2020 18:40:37 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 18:40:55 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 19:35:59 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 19:36:02 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 19:36:38 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+05/24/2020 19:40:51 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 19:41:01 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 19:43:29 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+05/24/2020 19:52:16 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 19:52:27 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 19:54:04 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+05/24/2020 20:28:49 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 20:29:00 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 20:30:44 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+05/24/2020 20:34:32 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'Enron'), ('epochs', 20), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 15), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+05/24/2020 20:34:43 - INFO: # train: 0, # val: 49, # test: 196
+05/24/2020 20:36:18 - WARNING: From /home/toor/miniconda3/envs/py27tf/lib/python2.7/site-packages/tensorflow/python/ops/sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead

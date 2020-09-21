@@ -1,0 +1,1114 @@
+08/09/2020 20:35:31 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 50), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+08/09/2020 20:35:50 - INFO: # train: 222, # val: 222, # test: 666
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 0 train_loss= 1.38508
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 0 graph_loss= 1.38508
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:12 - INFO: Time for Mini batch : 2.96187901497
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 1 train_loss= 1.38487
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 1 graph_loss= 1.38487
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:12 - INFO: Time for Mini batch : 0.0741701126099
+08/09/2020 20:36:12 - INFO: Time for epoch : 3.03310799599
+08/09/2020 20:36:12 - INFO: Val results at epoch 0: Measure (HAD) AUC: 0.84520331142
+08/09/2020 20:36:12 - INFO: Test results at epoch 0: Measure (HAD) AUC: 0.821032744456
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 0 train_loss= 1.38429
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 0 graph_loss= 1.38429
+08/09/2020 20:36:12 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:12 - INFO: Time for Mini batch : 0.0683829784393
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 1 train_loss= 1.38577
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 1 graph_loss= 1.38577
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:13 - INFO: Time for Mini batch : 0.133907079697
+08/09/2020 20:36:13 - INFO: Time for epoch : 0.195702314377
+08/09/2020 20:36:13 - INFO: Val results at epoch 1: Measure (HAD) AUC: 0.845385926467
+08/09/2020 20:36:13 - INFO: Test results at epoch 1: Measure (HAD) AUC: 0.822728133539
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 0 train_loss= 1.38495
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 0 graph_loss= 1.38495
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:13 - INFO: Time for Mini batch : 0.137041091919
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 1 train_loss= 1.38396
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 1 graph_loss= 1.38396
+08/09/2020 20:36:13 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:13 - INFO: Time for Mini batch : 0.0626199245453
+08/09/2020 20:36:13 - INFO: Time for epoch : 0.192307949066
+08/09/2020 20:36:13 - INFO: Val results at epoch 2: Measure (HAD) AUC: 0.844533722912
+08/09/2020 20:36:13 - INFO: Test results at epoch 2: Measure (HAD) AUC: 0.822849876904
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 0 train_loss= 1.38468
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 0 graph_loss= 1.38468
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:14 - INFO: Time for Mini batch : 0.0643081665039
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 1 train_loss= 1.38533
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 1 graph_loss= 1.38533
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:14 - INFO: Time for Mini batch : 0.0670959949493
+08/09/2020 20:36:14 - INFO: Time for epoch : 0.124789953232
+08/09/2020 20:36:14 - INFO: Val results at epoch 3: Measure (HAD) AUC: 0.844188783378
+08/09/2020 20:36:14 - INFO: Test results at epoch 3: Measure (HAD) AUC: 0.822931039147
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 0 train_loss= 1.38238
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 0 graph_loss= 1.38238
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:14 - INFO: Time for Mini batch : 0.0651190280914
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 1 train_loss= 1.38453
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 1 graph_loss= 1.38453
+08/09/2020 20:36:14 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:14 - INFO: Time for Mini batch : 0.0632491111755
+08/09/2020 20:36:14 - INFO: Time for epoch : 0.122168064117
+08/09/2020 20:36:14 - INFO: Val results at epoch 4: Measure (HAD) AUC: 0.843640938236
+08/09/2020 20:36:14 - INFO: Test results at epoch 4: Measure (HAD) AUC: 0.822800277755
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 0 train_loss= 1.38307
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 0 graph_loss= 1.38307
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:15 - INFO: Time for Mini batch : 0.0653409957886
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 1 train_loss= 1.38273
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 1 graph_loss= 1.38273
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:15 - INFO: Time for Mini batch : 0.0633239746094
+08/09/2020 20:36:15 - INFO: Time for epoch : 0.122224092484
+08/09/2020 20:36:15 - INFO: Val results at epoch 5: Measure (HAD) AUC: 0.843640938236
+08/09/2020 20:36:15 - INFO: Test results at epoch 5: Measure (HAD) AUC: 0.822545518491
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 0 train_loss= 1.38200
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 0 graph_loss= 1.38200
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:15 - INFO: Time for Mini batch : 0.0641310214996
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 1 train_loss= 1.38413
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 1 graph_loss= 1.38413
+08/09/2020 20:36:15 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:15 - INFO: Time for Mini batch : 0.0632500648499
+08/09/2020 20:36:15 - INFO: Time for epoch : 0.120625972748
+08/09/2020 20:36:15 - INFO: Val results at epoch 6: Measure (HAD) AUC: 0.843214836458
+08/09/2020 20:36:15 - INFO: Test results at epoch 6: Measure (HAD) AUC: 0.822378684991
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 0 train_loss= 1.38307
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 0 graph_loss= 1.38307
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:16 - INFO: Time for Mini batch : 0.0653259754181
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 1 train_loss= 1.38090
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 1 graph_loss= 1.38090
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:16 - INFO: Time for Mini batch : 0.0659401416779
+08/09/2020 20:36:16 - INFO: Time for epoch : 0.124466180801
+08/09/2020 20:36:16 - INFO: Val results at epoch 7: Measure (HAD) AUC: 0.842951059167
+08/09/2020 20:36:16 - INFO: Test results at epoch 7: Measure (HAD) AUC: 0.822277232187
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 0 train_loss= 1.38207
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 0 graph_loss= 1.38207
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:16 - INFO: Time for Mini batch : 0.0639898777008
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 1 train_loss= 1.38186
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 1 graph_loss= 1.38186
+08/09/2020 20:36:16 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:16 - INFO: Time for Mini batch : 0.0636661052704
+08/09/2020 20:36:16 - INFO: Time for epoch : 0.121477842331
+08/09/2020 20:36:16 - INFO: Val results at epoch 8: Measure (HAD) AUC: 0.842849606363
+08/09/2020 20:36:16 - INFO: Test results at epoch 8: Measure (HAD) AUC: 0.822096871646
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 0 train_loss= 1.38793
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 0 graph_loss= 1.38793
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:17 - INFO: Time for Mini batch : 0.0712659358978
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 1 train_loss= 1.38418
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 1 graph_loss= 1.38418
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:17 - INFO: Time for Mini batch : 0.154315948486
+08/09/2020 20:36:17 - INFO: Time for epoch : 0.219477891922
+08/09/2020 20:36:17 - INFO: Val results at epoch 9: Measure (HAD) AUC: 0.842809025241
+08/09/2020 20:36:17 - INFO: Test results at epoch 9: Measure (HAD) AUC: 0.822110398687
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 0 train_loss= 1.38087
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 0 graph_loss= 1.38087
+08/09/2020 20:36:17 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:17 - INFO: Time for Mini batch : 0.0692050457001
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 1 train_loss= 1.38214
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 1 graph_loss= 1.38214
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:18 - INFO: Time for Mini batch : 0.0639259815216
+08/09/2020 20:36:18 - INFO: Time for epoch : 0.126549005508
+08/09/2020 20:36:18 - INFO: Val results at epoch 10: Measure (HAD) AUC: 0.842727862998
+08/09/2020 20:36:18 - INFO: Test results at epoch 10: Measure (HAD) AUC: 0.822063054045
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 0 train_loss= 1.37882
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 0 graph_loss= 1.37882
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:18 - INFO: Time for Mini batch : 0.0660130977631
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 1 train_loss= 1.38155
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 1 graph_loss= 1.38155
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:18 - INFO: Time for Mini batch : 0.0648980140686
+08/09/2020 20:36:18 - INFO: Time for epoch : 0.122838020325
+08/09/2020 20:36:18 - INFO: Val results at epoch 11: Measure (HAD) AUC: 0.842707572437
+08/09/2020 20:36:18 - INFO: Test results at epoch 11: Measure (HAD) AUC: 0.821990909829
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 0 train_loss= 1.37916
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 0 graph_loss= 1.37916
+08/09/2020 20:36:18 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:18 - INFO: Time for Mini batch : 0.0656290054321
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 1 train_loss= 1.37603
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 1 graph_loss= 1.37603
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:19 - INFO: Time for Mini batch : 0.0635938644409
+08/09/2020 20:36:19 - INFO: Time for epoch : 0.12194108963
+08/09/2020 20:36:19 - INFO: Val results at epoch 12: Measure (HAD) AUC: 0.842322051782
+08/09/2020 20:36:19 - INFO: Test results at epoch 12: Measure (HAD) AUC: 0.821760950139
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 0 train_loss= 1.38423
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 0 graph_loss= 1.38423
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:19 - INFO: Time for Mini batch : 0.0689899921417
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 1 train_loss= 1.38299
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 1 graph_loss= 1.38299
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:19 - INFO: Time for Mini batch : 0.0656270980835
+08/09/2020 20:36:19 - INFO: Time for epoch : 0.12789607048
+08/09/2020 20:36:19 - INFO: Val results at epoch 13: Measure (HAD) AUC: 0.842180017856
+08/09/2020 20:36:19 - INFO: Test results at epoch 13: Measure (HAD) AUC: 0.821603134666
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 0 train_loss= 1.38106
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 0 graph_loss= 1.38106
+08/09/2020 20:36:19 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:19 - INFO: Time for Mini batch : 0.0710649490356
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 1 train_loss= 1.37790
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 1 graph_loss= 1.37790
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:20 - INFO: Time for Mini batch : 0.0651090145111
+08/09/2020 20:36:20 - INFO: Time for epoch : 0.130403995514
+08/09/2020 20:36:20 - INFO: Val results at epoch 14: Measure (HAD) AUC: 0.841835078322
+08/09/2020 20:36:20 - INFO: Test results at epoch 14: Measure (HAD) AUC: 0.821474627781
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 0 train_loss= 1.37719
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 0 graph_loss= 1.37719
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:20 - INFO: Time for Mini batch : 0.0644900798798
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 1 train_loss= 1.37517
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 1 graph_loss= 1.37517
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:20 - INFO: Time for Mini batch : 0.0618870258331
+08/09/2020 20:36:20 - INFO: Time for epoch : 0.121247053146
+08/09/2020 20:36:20 - INFO: Val results at epoch 15: Measure (HAD) AUC: 0.841693044396
+08/09/2020 20:36:20 - INFO: Test results at epoch 15: Measure (HAD) AUC: 0.821409247085
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 0 train_loss= 1.37422
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 0 graph_loss= 1.37422
+08/09/2020 20:36:20 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:20 - INFO: Time for Mini batch : 0.0640840530396
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 1 train_loss= 1.37287
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 1 graph_loss= 1.37287
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:21 - INFO: Time for Mini batch : 0.0625169277191
+08/09/2020 20:36:21 - INFO: Time for epoch : 0.120335102081
+08/09/2020 20:36:21 - INFO: Val results at epoch 16: Measure (HAD) AUC: 0.841591591592
+08/09/2020 20:36:21 - INFO: Test results at epoch 16: Measure (HAD) AUC: 0.821285249213
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 0 train_loss= 1.37130
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 0 graph_loss= 1.37130
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:21 - INFO: Time for Mini batch : 0.0675778388977
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 1 train_loss= 1.37631
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 1 graph_loss= 1.37631
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:21 - INFO: Time for Mini batch : 0.0658981800079
+08/09/2020 20:36:21 - INFO: Time for epoch : 0.126968860626
+08/09/2020 20:36:21 - INFO: Val results at epoch 17: Measure (HAD) AUC: 0.841469848227
+08/09/2020 20:36:21 - INFO: Test results at epoch 17: Measure (HAD) AUC: 0.821183796409
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 0 train_loss= 1.36742
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 0 graph_loss= 1.36742
+08/09/2020 20:36:21 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:21 - INFO: Time for Mini batch : 0.0645580291748
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 1 train_loss= 1.38504
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 1 graph_loss= 1.38504
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:22 - INFO: Time for Mini batch : 0.0730581283569
+08/09/2020 20:36:22 - INFO: Time for epoch : 0.133515119553
+08/09/2020 20:36:22 - INFO: Val results at epoch 18: Measure (HAD) AUC: 0.841408976544
+08/09/2020 20:36:22 - INFO: Test results at epoch 18: Measure (HAD) AUC: 0.821066562058
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 0 train_loss= 1.37614
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 0 graph_loss= 1.37614
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:22 - INFO: Time for Mini batch : 0.0651021003723
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 1 train_loss= 1.37465
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 1 graph_loss= 1.37465
+08/09/2020 20:36:22 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:22 - INFO: Time for Mini batch : 0.087287902832
+08/09/2020 20:36:22 - INFO: Time for epoch : 0.146260738373
+08/09/2020 20:36:22 - INFO: Val results at epoch 19: Measure (HAD) AUC: 0.841429267105
+08/09/2020 20:36:22 - INFO: Test results at epoch 19: Measure (HAD) AUC: 0.820958345733
+08/09/2020 20:36:23 - INFO: Mini batch Iter: 0 train_loss= 1.37225
+08/09/2020 20:36:23 - INFO: Mini batch Iter: 0 graph_loss= 1.37225
+08/09/2020 20:36:23 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:23 - INFO: Time for Mini batch : 0.0665650367737
+08/09/2020 20:36:23 - INFO: Mini batch Iter: 1 train_loss= 1.38173
+08/09/2020 20:36:23 - INFO: Mini batch Iter: 1 graph_loss= 1.38173
+08/09/2020 20:36:23 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:23 - INFO: Time for Mini batch : 0.0646269321442
+08/09/2020 20:36:23 - INFO: Time for epoch : 0.125188112259
+08/09/2020 20:36:24 - INFO: Val results at epoch 20: Measure (HAD) AUC: 0.841408976544
+08/09/2020 20:36:24 - INFO: Test results at epoch 20: Measure (HAD) AUC: 0.820823075328
+08/09/2020 20:36:24 - INFO: Mini batch Iter: 0 train_loss= 1.36954
+08/09/2020 20:36:24 - INFO: Mini batch Iter: 0 graph_loss= 1.36954
+08/09/2020 20:36:24 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:24 - INFO: Time for Mini batch : 0.0664691925049
+08/09/2020 20:36:24 - INFO: Mini batch Iter: 1 train_loss= 1.36904
+08/09/2020 20:36:24 - INFO: Mini batch Iter: 1 graph_loss= 1.36904
+08/09/2020 20:36:24 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:24 - INFO: Time for Mini batch : 0.0652549266815
+08/09/2020 20:36:24 - INFO: Time for epoch : 0.125210046768
+08/09/2020 20:36:24 - INFO: Val results at epoch 21: Measure (HAD) AUC: 0.841145199253
+08/09/2020 20:36:24 - INFO: Test results at epoch 21: Measure (HAD) AUC: 0.82071034999
+08/09/2020 20:36:25 - INFO: Mini batch Iter: 0 train_loss= 1.37122
+08/09/2020 20:36:25 - INFO: Mini batch Iter: 0 graph_loss= 1.37122
+08/09/2020 20:36:25 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:25 - INFO: Time for Mini batch : 0.48893404007
+08/09/2020 20:36:25 - INFO: Mini batch Iter: 1 train_loss= 1.37445
+08/09/2020 20:36:25 - INFO: Mini batch Iter: 1 graph_loss= 1.37445
+08/09/2020 20:36:25 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:25 - INFO: Time for Mini batch : 0.0696029663086
+08/09/2020 20:36:25 - INFO: Time for epoch : 0.552472114563
+08/09/2020 20:36:26 - INFO: Val results at epoch 22: Measure (HAD) AUC: 0.841043746449
+08/09/2020 20:36:26 - INFO: Test results at epoch 22: Measure (HAD) AUC: 0.820638205773
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 0 train_loss= 1.37854
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 0 graph_loss= 1.37854
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:27 - INFO: Time for Mini batch : 0.583628892899
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 1 train_loss= 1.37672
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 1 graph_loss= 1.37672
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:27 - INFO: Time for Mini batch : 0.0660109519958
+08/09/2020 20:36:27 - INFO: Time for epoch : 0.643712043762
+08/09/2020 20:36:27 - INFO: Val results at epoch 23: Measure (HAD) AUC: 0.841084327571
+08/09/2020 20:36:27 - INFO: Test results at epoch 23: Measure (HAD) AUC: 0.820602133665
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 0 train_loss= 1.37095
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 0 graph_loss= 1.37095
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:27 - INFO: Time for Mini batch : 0.0670847892761
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 1 train_loss= 1.37005
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 1 graph_loss= 1.37005
+08/09/2020 20:36:27 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:27 - INFO: Time for Mini batch : 0.0635719299316
+08/09/2020 20:36:27 - INFO: Time for epoch : 0.123520851135
+08/09/2020 20:36:27 - INFO: Val results at epoch 24: Measure (HAD) AUC: 0.841003165327
+08/09/2020 20:36:27 - INFO: Test results at epoch 24: Measure (HAD) AUC: 0.820575079584
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 0 train_loss= 1.38834
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 0 graph_loss= 1.38834
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:28 - INFO: Time for Mini batch : 0.0645079612732
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 1 train_loss= 1.38112
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 1 graph_loss= 1.38112
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:28 - INFO: Time for Mini batch : 0.0807898044586
+08/09/2020 20:36:28 - INFO: Time for epoch : 0.141414880753
+08/09/2020 20:36:28 - INFO: Val results at epoch 25: Measure (HAD) AUC: 0.84106403701
+08/09/2020 20:36:28 - INFO: Test results at epoch 25: Measure (HAD) AUC: 0.820568316064
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 0 train_loss= 1.38602
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 0 graph_loss= 1.38602
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:28 - INFO: Time for Mini batch : 0.0668969154358
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 1 train_loss= 1.36035
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 1 graph_loss= 1.36035
+08/09/2020 20:36:28 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:28 - INFO: Time for Mini batch : 0.0667388439178
+08/09/2020 20:36:28 - INFO: Time for epoch : 0.127242803574
+08/09/2020 20:36:28 - INFO: Val results at epoch 26: Measure (HAD) AUC: 0.841165489814
+08/09/2020 20:36:28 - INFO: Test results at epoch 26: Measure (HAD) AUC: 0.820575079584
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 0 train_loss= 1.37352
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 0 graph_loss= 1.37352
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:29 - INFO: Time for Mini batch : 0.0848269462585
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 1 train_loss= 1.37021
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 1 graph_loss= 1.37021
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:29 - INFO: Time for Mini batch : 0.0652151107788
+08/09/2020 20:36:29 - INFO: Time for epoch : 0.143668889999
+08/09/2020 20:36:29 - INFO: Val results at epoch 27: Measure (HAD) AUC: 0.841246652057
+08/09/2020 20:36:29 - INFO: Test results at epoch 27: Measure (HAD) AUC: 0.820543516489
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 0 train_loss= 1.36206
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 0 graph_loss= 1.36206
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:29 - INFO: Time for Mini batch : 0.0653598308563
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 1 train_loss= 1.37454
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 1 graph_loss= 1.37454
+08/09/2020 20:36:29 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:29 - INFO: Time for Mini batch : 0.0654580593109
+08/09/2020 20:36:29 - INFO: Time for epoch : 0.123882770538
+08/09/2020 20:36:29 - INFO: Val results at epoch 28: Measure (HAD) AUC: 0.841287233179
+08/09/2020 20:36:29 - INFO: Test results at epoch 28: Measure (HAD) AUC: 0.82055704353
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 0 train_loss= 1.37915
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 0 graph_loss= 1.37915
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:30 - INFO: Time for Mini batch : 0.0892150402069
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 1 train_loss= 1.38336
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 1 graph_loss= 1.38336
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:30 - INFO: Time for Mini batch : 0.0656020641327
+08/09/2020 20:36:30 - INFO: Time for epoch : 0.148672103882
+08/09/2020 20:36:30 - INFO: Val results at epoch 29: Measure (HAD) AUC: 0.841287233179
+08/09/2020 20:36:30 - INFO: Test results at epoch 29: Measure (HAD) AUC: 0.820548025503
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 0 train_loss= 1.36879
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 0 graph_loss= 1.36879
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:30 - INFO: Time for Mini batch : 0.0649719238281
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 1 train_loss= 1.35786
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 1 graph_loss= 1.35786
+08/09/2020 20:36:30 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:30 - INFO: Time for Mini batch : 0.065710067749
+08/09/2020 20:36:30 - INFO: Time for epoch : 0.124391078949
+08/09/2020 20:36:31 - INFO: Val results at epoch 30: Measure (HAD) AUC: 0.841266942618
+08/09/2020 20:36:31 - INFO: Test results at epoch 30: Measure (HAD) AUC: 0.820532243956
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 0 train_loss= 1.36831
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 0 graph_loss= 1.36831
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:31 - INFO: Time for Mini batch : 0.0700509548187
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 1 train_loss= 1.37384
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 1 graph_loss= 1.37384
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:31 - INFO: Time for Mini batch : 0.0695550441742
+08/09/2020 20:36:31 - INFO: Time for epoch : 0.131853818893
+08/09/2020 20:36:31 - INFO: Val results at epoch 31: Measure (HAD) AUC: 0.841327814301
+08/09/2020 20:36:31 - INFO: Test results at epoch 31: Measure (HAD) AUC: 0.820572825077
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 0 train_loss= 1.39493
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 0 graph_loss= 1.39493
+08/09/2020 20:36:31 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:31 - INFO: Time for Mini batch : 0.0636699199677
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 1 train_loss= 1.35260
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 1 graph_loss= 1.35260
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:32 - INFO: Time for Mini batch : 0.0647418498993
+08/09/2020 20:36:32 - INFO: Time for epoch : 0.121471881866
+08/09/2020 20:36:32 - INFO: Val results at epoch 32: Measure (HAD) AUC: 0.841206070936
+08/09/2020 20:36:32 - INFO: Test results at epoch 32: Measure (HAD) AUC: 0.820491662834
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 0 train_loss= 1.38140
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 0 graph_loss= 1.38140
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:32 - INFO: Time for Mini batch : 0.0677788257599
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 1 train_loss= 1.36082
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 1 graph_loss= 1.36082
+08/09/2020 20:36:32 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:32 - INFO: Time for Mini batch : 0.0650591850281
+08/09/2020 20:36:32 - INFO: Time for epoch : 0.127358913422
+08/09/2020 20:36:32 - INFO: Val results at epoch 33: Measure (HAD) AUC: 0.841226361497
+08/09/2020 20:36:32 - INFO: Test results at epoch 33: Measure (HAD) AUC: 0.820426282138
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 0 train_loss= 1.38822
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 0 graph_loss= 1.38822
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:33 - INFO: Time for Mini batch : 0.254703044891
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 1 train_loss= 1.37652
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 1 graph_loss= 1.37652
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:33 - INFO: Time for Mini batch : 0.0653100013733
+08/09/2020 20:36:33 - INFO: Time for epoch : 0.314171075821
+08/09/2020 20:36:33 - INFO: Val results at epoch 34: Measure (HAD) AUC: 0.841226361497
+08/09/2020 20:36:33 - INFO: Test results at epoch 34: Measure (HAD) AUC: 0.820412755097
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 0 train_loss= 1.36614
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 0 graph_loss= 1.36614
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:33 - INFO: Time for Mini batch : 0.0638709068298
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 1 train_loss= 1.37757
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 1 graph_loss= 1.37757
+08/09/2020 20:36:33 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:33 - INFO: Time for Mini batch : 0.0626997947693
+08/09/2020 20:36:33 - INFO: Time for epoch : 0.121012926102
+08/09/2020 20:36:33 - INFO: Val results at epoch 35: Measure (HAD) AUC: 0.841327814301
+08/09/2020 20:36:33 - INFO: Test results at epoch 35: Measure (HAD) AUC: 0.820457845233
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 0 train_loss= 1.35863
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 0 graph_loss= 1.35863
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:34 - INFO: Time for Mini batch : 0.0650990009308
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 1 train_loss= 1.37954
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 1 graph_loss= 1.37954
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:34 - INFO: Time for Mini batch : 0.0776488780975
+08/09/2020 20:36:34 - INFO: Time for epoch : 0.135942935944
+08/09/2020 20:36:34 - INFO: Val results at epoch 36: Measure (HAD) AUC: 0.841266942618
+08/09/2020 20:36:34 - INFO: Test results at epoch 36: Measure (HAD) AUC: 0.82046686326
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 0 train_loss= 1.35243
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 0 graph_loss= 1.35243
+08/09/2020 20:36:34 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:34 - INFO: Time for Mini batch : 0.110300064087
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 1 train_loss= 1.38786
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 1 graph_loss= 1.38786
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:35 - INFO: Time for Mini batch : 0.0671660900116
+08/09/2020 20:36:35 - INFO: Time for epoch : 0.170753955841
+08/09/2020 20:36:35 - INFO: Val results at epoch 37: Measure (HAD) AUC: 0.841206070936
+08/09/2020 20:36:35 - INFO: Test results at epoch 37: Measure (HAD) AUC: 0.820505189875
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 0 train_loss= 1.37381
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 0 graph_loss= 1.37381
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:35 - INFO: Time for Mini batch : 0.0643169879913
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 1 train_loss= 1.37883
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 1 graph_loss= 1.37883
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:35 - INFO: Time for Mini batch : 0.0637810230255
+08/09/2020 20:36:35 - INFO: Time for epoch : 0.1218791008
+08/09/2020 20:36:35 - INFO: Val results at epoch 38: Measure (HAD) AUC: 0.841348104862
+08/09/2020 20:36:35 - INFO: Test results at epoch 38: Measure (HAD) AUC: 0.820599879158
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 0 train_loss= 1.37907
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 0 graph_loss= 1.37907
+08/09/2020 20:36:35 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:35 - INFO: Time for Mini batch : 0.0652527809143
+08/09/2020 20:36:37 - INFO: Mini batch Iter: 1 train_loss= 1.37252
+08/09/2020 20:36:37 - INFO: Mini batch Iter: 1 graph_loss= 1.37252
+08/09/2020 20:36:37 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:37 - INFO: Time for Mini batch : 1.26030397415
+08/09/2020 20:36:37 - INFO: Time for epoch : 1.32285284996
+08/09/2020 20:36:37 - INFO: Val results at epoch 39: Measure (HAD) AUC: 0.841510429348
+08/09/2020 20:36:37 - INFO: Test results at epoch 39: Measure (HAD) AUC: 0.820672023375
+08/09/2020 20:36:38 - INFO: Mini batch Iter: 0 train_loss= 1.35555
+08/09/2020 20:36:38 - INFO: Mini batch Iter: 0 graph_loss= 1.35555
+08/09/2020 20:36:38 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:38 - INFO: Time for Mini batch : 0.276163816452
+08/09/2020 20:36:39 - INFO: Mini batch Iter: 1 train_loss= 1.37273
+08/09/2020 20:36:39 - INFO: Mini batch Iter: 1 graph_loss= 1.37273
+08/09/2020 20:36:39 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:39 - INFO: Time for Mini batch : 0.372973918915
+08/09/2020 20:36:39 - INFO: Time for epoch : 0.643301963806
+08/09/2020 20:36:39 - INFO: Val results at epoch 40: Measure (HAD) AUC: 0.841571301031
+08/09/2020 20:36:39 - INFO: Test results at epoch 40: Measure (HAD) AUC: 0.820739658577
+08/09/2020 20:36:39 - INFO: Mini batch Iter: 0 train_loss= 1.41115
+08/09/2020 20:36:39 - INFO: Mini batch Iter: 0 graph_loss= 1.41115
+08/09/2020 20:36:39 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:39 - INFO: Time for Mini batch : 0.0639350414276
+08/09/2020 20:36:40 - INFO: Mini batch Iter: 1 train_loss= 1.36663
+08/09/2020 20:36:40 - INFO: Mini batch Iter: 1 graph_loss= 1.36663
+08/09/2020 20:36:40 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:40 - INFO: Time for Mini batch : 0.158480882645
+08/09/2020 20:36:40 - INFO: Time for epoch : 0.21873497963
+08/09/2020 20:36:40 - INFO: Val results at epoch 41: Measure (HAD) AUC: 0.841611882152
+08/09/2020 20:36:40 - INFO: Test results at epoch 41: Measure (HAD) AUC: 0.820771221672
+08/09/2020 20:36:41 - INFO: Mini batch Iter: 0 train_loss= 1.37191
+08/09/2020 20:36:41 - INFO: Mini batch Iter: 0 graph_loss= 1.37191
+08/09/2020 20:36:41 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:41 - INFO: Time for Mini batch : 0.189444065094
+08/09/2020 20:36:41 - INFO: Mini batch Iter: 1 train_loss= 1.35802
+08/09/2020 20:36:41 - INFO: Mini batch Iter: 1 graph_loss= 1.35802
+08/09/2020 20:36:41 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:41 - INFO: Time for Mini batch : 0.0906829833984
+08/09/2020 20:36:41 - INFO: Time for epoch : 0.274662017822
+08/09/2020 20:36:41 - INFO: Val results at epoch 42: Measure (HAD) AUC: 0.841713334957
+08/09/2020 20:36:41 - INFO: Test results at epoch 42: Measure (HAD) AUC: 0.820782494206
+08/09/2020 20:36:42 - INFO: Mini batch Iter: 0 train_loss= 1.34705
+08/09/2020 20:36:42 - INFO: Mini batch Iter: 0 graph_loss= 1.34705
+08/09/2020 20:36:42 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:42 - INFO: Time for Mini batch : 0.0683150291443
+08/09/2020 20:36:42 - INFO: Mini batch Iter: 1 train_loss= 1.37019
+08/09/2020 20:36:42 - INFO: Mini batch Iter: 1 graph_loss= 1.37019
+08/09/2020 20:36:42 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:42 - INFO: Time for Mini batch : 0.0639138221741
+08/09/2020 20:36:42 - INFO: Time for epoch : 0.125754117966
+08/09/2020 20:36:43 - INFO: Val results at epoch 43: Measure (HAD) AUC: 0.841814787761
+08/09/2020 20:36:43 - INFO: Test results at epoch 43: Measure (HAD) AUC: 0.820802784767
+08/09/2020 20:36:44 - INFO: Mini batch Iter: 0 train_loss= 1.35809
+08/09/2020 20:36:44 - INFO: Mini batch Iter: 0 graph_loss= 1.35809
+08/09/2020 20:36:44 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:44 - INFO: Time for Mini batch : 0.0634169578552
+08/09/2020 20:36:45 - INFO: Mini batch Iter: 1 train_loss= 1.36734
+08/09/2020 20:36:45 - INFO: Mini batch Iter: 1 graph_loss= 1.36734
+08/09/2020 20:36:45 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:45 - INFO: Time for Mini batch : 0.750569105148
+08/09/2020 20:36:45 - INFO: Time for epoch : 0.80924987793
+08/09/2020 20:36:46 - INFO: Val results at epoch 44: Measure (HAD) AUC: 0.841774206639
+08/09/2020 20:36:46 - INFO: Test results at epoch 44: Measure (HAD) AUC: 0.820829838848
+08/09/2020 20:36:46 - INFO: Mini batch Iter: 0 train_loss= 1.36661
+08/09/2020 20:36:46 - INFO: Mini batch Iter: 0 graph_loss= 1.36661
+08/09/2020 20:36:46 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:46 - INFO: Time for Mini batch : 0.0623269081116
+08/09/2020 20:36:47 - INFO: Mini batch Iter: 1 train_loss= 1.35438
+08/09/2020 20:36:47 - INFO: Mini batch Iter: 1 graph_loss= 1.35438
+08/09/2020 20:36:47 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:47 - INFO: Time for Mini batch : 0.242565870285
+08/09/2020 20:36:47 - INFO: Time for epoch : 0.301433801651
+08/09/2020 20:36:48 - INFO: Val results at epoch 45: Measure (HAD) AUC: 0.8417944972
+08/09/2020 20:36:48 - INFO: Test results at epoch 45: Measure (HAD) AUC: 0.820865910956
+08/09/2020 20:36:48 - INFO: Mini batch Iter: 0 train_loss= 1.39055
+08/09/2020 20:36:48 - INFO: Mini batch Iter: 0 graph_loss= 1.39055
+08/09/2020 20:36:48 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:48 - INFO: Time for Mini batch : 0.156245946884
+08/09/2020 20:36:49 - INFO: Mini batch Iter: 1 train_loss= 1.37709
+08/09/2020 20:36:49 - INFO: Mini batch Iter: 1 graph_loss= 1.37709
+08/09/2020 20:36:49 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:49 - INFO: Time for Mini batch : 0.142021894455
+08/09/2020 20:36:49 - INFO: Time for epoch : 0.292165756226
+08/09/2020 20:36:49 - INFO: Val results at epoch 46: Measure (HAD) AUC: 0.841956821687
+08/09/2020 20:36:49 - INFO: Test results at epoch 46: Measure (HAD) AUC: 0.820922273625
+08/09/2020 20:36:49 - INFO: Mini batch Iter: 0 train_loss= 1.39960
+08/09/2020 20:36:49 - INFO: Mini batch Iter: 0 graph_loss= 1.39960
+08/09/2020 20:36:49 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:49 - INFO: Time for Mini batch : 0.358018875122
+08/09/2020 20:36:50 - INFO: Mini batch Iter: 1 train_loss= 1.38340
+08/09/2020 20:36:50 - INFO: Mini batch Iter: 1 graph_loss= 1.38340
+08/09/2020 20:36:50 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:50 - INFO: Time for Mini batch : 0.105300188065
+08/09/2020 20:36:50 - INFO: Time for epoch : 0.457668066025
+08/09/2020 20:36:50 - INFO: Val results at epoch 47: Measure (HAD) AUC: 0.841855368882
+08/09/2020 20:36:50 - INFO: Test results at epoch 47: Measure (HAD) AUC: 0.820892965037
+08/09/2020 20:36:50 - INFO: Mini batch Iter: 0 train_loss= 1.38067
+08/09/2020 20:36:50 - INFO: Mini batch Iter: 0 graph_loss= 1.38067
+08/09/2020 20:36:50 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:50 - INFO: Time for Mini batch : 0.0650470256805
+08/09/2020 20:36:51 - INFO: Mini batch Iter: 1 train_loss= 1.36221
+08/09/2020 20:36:51 - INFO: Mini batch Iter: 1 graph_loss= 1.36221
+08/09/2020 20:36:51 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:51 - INFO: Time for Mini batch : 0.0912239551544
+08/09/2020 20:36:51 - INFO: Time for epoch : 0.151240110397
+08/09/2020 20:36:51 - INFO: Val results at epoch 48: Measure (HAD) AUC: 0.841814787761
+08/09/2020 20:36:51 - INFO: Test results at epoch 48: Measure (HAD) AUC: 0.820868165463
+08/09/2020 20:36:51 - INFO: Mini batch Iter: 0 train_loss= 1.36060
+08/09/2020 20:36:51 - INFO: Mini batch Iter: 0 graph_loss= 1.36060
+08/09/2020 20:36:51 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:36:51 - INFO: Time for Mini batch : 0.0660269260406
+08/09/2020 20:36:52 - INFO: Mini batch Iter: 1 train_loss= 1.37453
+08/09/2020 20:36:52 - INFO: Mini batch Iter: 1 graph_loss= 1.37453
+08/09/2020 20:36:52 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:36:52 - INFO: Time for Mini batch : 0.219089984894
+08/09/2020 20:36:52 - INFO: Time for epoch : 0.279397010803
+08/09/2020 20:36:52 - INFO: Val results at epoch 49: Measure (HAD) AUC: 0.841733625517
+08/09/2020 20:36:52 - INFO: Test results at epoch 49: Measure (HAD) AUC: 0.820816311807
+08/09/2020 20:36:52 - INFO: Best epoch 1
+08/09/2020 20:36:52 - INFO: Best epoch val results defaultdict(<function <lambda> at 0x7fdc54930500>, {'HAD': [0.8453859264670076, 0.7612612612612613, 0.8415930801799661], 'SIGMOID': [0.8430525119714309, 0.7612612612612613, 0.8406263203276326]})
+
+08/09/2020 20:36:52 - INFO: Best epoch test results defaultdict(<function <lambda> at 0x7fdc54930578>, {'HAD': [0.8227281335389443, 0.7357357357357357, 0.8097218518974756], 'SIGMOID': [0.8217440413386359, 0.7357357357357357, 0.80873324321228]})
+
+08/09/2020 20:46:19 - INFO: [('structural_head_config', u'16,8,8'), ('temporal_layer_config', u'128'), ('val_freq', 1), ('dataset', u'UCI'), ('epochs', 50), ('walk_len', 20), ('weight_decay', 0.0005), ('neg_sample_size', 10), ('temporal_drop', 0.5), ('GPU_ID', 0), ('use_residual', u'False'), ('structural_layer_config', u'128'), ('window', -1), ('base_model', u'DySAT'), ('log_dir', 'log'), ('model_dir', 'model'), ('spatial_drop', 0.1), ('position_ffn', u'True'), ('optimizer', 'adam'), ('time_steps', 2), ('learning_rate', 0.001), ('csv_dir', 'csv'), ('batch_size', 512), ('max_gradient_norm', 1.0), ('featureless', u'True'), ('test_freq', 1), ('temporal_head_config', u'16'), ('seed', 7), ('save_dir', 'output'), ('model', u'default'), ('neg_weight', 1.0)]
+08/09/2020 20:46:24 - INFO: # train: 222, # val: 222, # test: 666
+08/09/2020 20:46:30 - INFO: Mini batch Iter: 0 train_loss= 1.38508
+08/09/2020 20:46:30 - INFO: Mini batch Iter: 0 graph_loss= 1.38508
+08/09/2020 20:46:30 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:30 - INFO: Time for Mini batch : 1.48560404778
+08/09/2020 20:46:31 - INFO: Mini batch Iter: 1 train_loss= 1.38487
+08/09/2020 20:46:31 - INFO: Mini batch Iter: 1 graph_loss= 1.38487
+08/09/2020 20:46:31 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:31 - INFO: Time for Mini batch : 0.138782024384
+08/09/2020 20:46:31 - INFO: Time for epoch : 1.62153196335
+08/09/2020 20:46:31 - INFO: Val results at epoch 0: Measure (HAD) AUC: 0.84520331142
+08/09/2020 20:46:31 - INFO: Test results at epoch 0: Measure (HAD) AUC: 0.821032744456
+08/09/2020 20:46:31 - INFO: Mini batch Iter: 0 train_loss= 1.38429
+08/09/2020 20:46:31 - INFO: Mini batch Iter: 0 graph_loss= 1.38429
+08/09/2020 20:46:31 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:31 - INFO: Time for Mini batch : 0.218909025192
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 1 train_loss= 1.38577
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 1 graph_loss= 1.38577
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:32 - INFO: Time for Mini batch : 0.0734400749207
+08/09/2020 20:46:32 - INFO: Time for epoch : 0.289226055145
+08/09/2020 20:46:32 - INFO: Val results at epoch 1: Measure (HAD) AUC: 0.845385926467
+08/09/2020 20:46:32 - INFO: Test results at epoch 1: Measure (HAD) AUC: 0.822728133539
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 0 train_loss= 1.38495
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 0 graph_loss= 1.38495
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:32 - INFO: Time for Mini batch : 0.200161933899
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 1 train_loss= 1.38396
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 1 graph_loss= 1.38396
+08/09/2020 20:46:32 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:32 - INFO: Time for Mini batch : 0.0711319446564
+08/09/2020 20:46:32 - INFO: Time for epoch : 0.268007040024
+08/09/2020 20:46:32 - INFO: Val results at epoch 2: Measure (HAD) AUC: 0.844533722912
+08/09/2020 20:46:32 - INFO: Test results at epoch 2: Measure (HAD) AUC: 0.822849876904
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 0 train_loss= 1.38468
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 0 graph_loss= 1.38468
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:33 - INFO: Time for Mini batch : 0.139810085297
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 1 train_loss= 1.38533
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 1 graph_loss= 1.38533
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:33 - INFO: Time for Mini batch : 0.0637290477753
+08/09/2020 20:46:33 - INFO: Time for epoch : 0.198989152908
+08/09/2020 20:46:33 - INFO: Val results at epoch 3: Measure (HAD) AUC: 0.844188783378
+08/09/2020 20:46:33 - INFO: Test results at epoch 3: Measure (HAD) AUC: 0.822931039147
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 0 train_loss= 1.38238
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 0 graph_loss= 1.38238
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:33 - INFO: Time for Mini batch : 0.0761449337006
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 1 train_loss= 1.38453
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 1 graph_loss= 1.38453
+08/09/2020 20:46:33 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:33 - INFO: Time for Mini batch : 0.0637519359589
+08/09/2020 20:46:33 - INFO: Time for epoch : 0.136801958084
+08/09/2020 20:46:34 - INFO: Val results at epoch 4: Measure (HAD) AUC: 0.843640938236
+08/09/2020 20:46:34 - INFO: Test results at epoch 4: Measure (HAD) AUC: 0.822800277755
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 0 train_loss= 1.38307
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 0 graph_loss= 1.38307
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:34 - INFO: Time for Mini batch : 0.0727479457855
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 1 train_loss= 1.38273
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 1 graph_loss= 1.38273
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:34 - INFO: Time for Mini batch : 0.0633571147919
+08/09/2020 20:46:34 - INFO: Time for epoch : 0.130625963211
+08/09/2020 20:46:34 - INFO: Val results at epoch 5: Measure (HAD) AUC: 0.843640938236
+08/09/2020 20:46:34 - INFO: Test results at epoch 5: Measure (HAD) AUC: 0.822545518491
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 0 train_loss= 1.38200
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 0 graph_loss= 1.38200
+08/09/2020 20:46:34 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:34 - INFO: Time for Mini batch : 0.0683441162109
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 1 train_loss= 1.38413
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 1 graph_loss= 1.38413
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:35 - INFO: Time for Mini batch : 0.0628008842468
+08/09/2020 20:46:35 - INFO: Time for epoch : 0.125293970108
+08/09/2020 20:46:35 - INFO: Val results at epoch 6: Measure (HAD) AUC: 0.843214836458
+08/09/2020 20:46:35 - INFO: Test results at epoch 6: Measure (HAD) AUC: 0.822378684991
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 0 train_loss= 1.38307
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 0 graph_loss= 1.38307
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:35 - INFO: Time for Mini batch : 0.0795209407806
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 1 train_loss= 1.38090
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 1 graph_loss= 1.38090
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:35 - INFO: Time for Mini batch : 0.062422990799
+08/09/2020 20:46:35 - INFO: Time for epoch : 0.13601899147
+08/09/2020 20:46:35 - INFO: Val results at epoch 7: Measure (HAD) AUC: 0.842951059167
+08/09/2020 20:46:35 - INFO: Test results at epoch 7: Measure (HAD) AUC: 0.822277232187
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 0 train_loss= 1.38207
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 0 graph_loss= 1.38207
+08/09/2020 20:46:35 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:35 - INFO: Time for Mini batch : 0.0644149780273
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 1 train_loss= 1.38186
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 1 graph_loss= 1.38186
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:36 - INFO: Time for Mini batch : 0.0623950958252
+08/09/2020 20:46:36 - INFO: Time for epoch : 0.1212849617
+08/09/2020 20:46:36 - INFO: Val results at epoch 8: Measure (HAD) AUC: 0.842849606363
+08/09/2020 20:46:36 - INFO: Test results at epoch 8: Measure (HAD) AUC: 0.822096871646
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 0 train_loss= 1.38793
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 0 graph_loss= 1.38793
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:36 - INFO: Time for Mini batch : 0.0697979927063
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 1 train_loss= 1.38418
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 1 graph_loss= 1.38418
+08/09/2020 20:46:36 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:36 - INFO: Time for Mini batch : 0.1941010952
+08/09/2020 20:46:36 - INFO: Time for epoch : 0.258362054825
+08/09/2020 20:46:36 - INFO: Val results at epoch 9: Measure (HAD) AUC: 0.842809025241
+08/09/2020 20:46:36 - INFO: Test results at epoch 9: Measure (HAD) AUC: 0.822110398687
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 0 train_loss= 1.38087
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 0 graph_loss= 1.38087
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:37 - INFO: Time for Mini batch : 0.282451868057
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 1 train_loss= 1.38214
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 1 graph_loss= 1.38214
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:37 - INFO: Time for Mini batch : 0.0607380867004
+08/09/2020 20:46:37 - INFO: Time for epoch : 0.337408065796
+08/09/2020 20:46:37 - INFO: Val results at epoch 10: Measure (HAD) AUC: 0.842727862998
+08/09/2020 20:46:37 - INFO: Test results at epoch 10: Measure (HAD) AUC: 0.822063054045
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 0 train_loss= 1.37882
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 0 graph_loss= 1.37882
+08/09/2020 20:46:37 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:37 - INFO: Time for Mini batch : 0.0646028518677
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 1 train_loss= 1.38155
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 1 graph_loss= 1.38155
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:38 - INFO: Time for Mini batch : 0.0647079944611
+08/09/2020 20:46:38 - INFO: Time for epoch : 0.126281023026
+08/09/2020 20:46:38 - INFO: Val results at epoch 11: Measure (HAD) AUC: 0.842707572437
+08/09/2020 20:46:38 - INFO: Test results at epoch 11: Measure (HAD) AUC: 0.821990909829
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 0 train_loss= 1.37916
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 0 graph_loss= 1.37916
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:38 - INFO: Time for Mini batch : 0.0955989360809
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 1 train_loss= 1.37603
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 1 graph_loss= 1.37603
+08/09/2020 20:46:38 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:38 - INFO: Time for Mini batch : 0.0706851482391
+08/09/2020 20:46:38 - INFO: Time for epoch : 0.160825967789
+08/09/2020 20:46:38 - INFO: Val results at epoch 12: Measure (HAD) AUC: 0.842322051782
+08/09/2020 20:46:38 - INFO: Test results at epoch 12: Measure (HAD) AUC: 0.821760950139
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 0 train_loss= 1.38423
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 0 graph_loss= 1.38423
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:39 - INFO: Time for Mini batch : 0.0694780349731
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 1 train_loss= 1.38299
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 1 graph_loss= 1.38299
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:39 - INFO: Time for Mini batch : 0.0618839263916
+08/09/2020 20:46:39 - INFO: Time for epoch : 0.126732826233
+08/09/2020 20:46:39 - INFO: Val results at epoch 13: Measure (HAD) AUC: 0.842180017856
+08/09/2020 20:46:39 - INFO: Test results at epoch 13: Measure (HAD) AUC: 0.821603134666
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 0 train_loss= 1.38106
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 0 graph_loss= 1.38106
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:39 - INFO: Time for Mini batch : 0.0716230869293
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 1 train_loss= 1.37790
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 1 graph_loss= 1.37790
+08/09/2020 20:46:39 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:39 - INFO: Time for Mini batch : 0.0916488170624
+08/09/2020 20:46:39 - INFO: Time for epoch : 0.15758895874
+08/09/2020 20:46:39 - INFO: Val results at epoch 14: Measure (HAD) AUC: 0.841835078322
+08/09/2020 20:46:39 - INFO: Test results at epoch 14: Measure (HAD) AUC: 0.821474627781
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 0 train_loss= 1.37719
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 0 graph_loss= 1.37719
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:40 - INFO: Time for Mini batch : 0.0655190944672
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 1 train_loss= 1.37517
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 1 graph_loss= 1.37517
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:40 - INFO: Time for Mini batch : 0.0649328231812
+08/09/2020 20:46:40 - INFO: Time for epoch : 0.125686883926
+08/09/2020 20:46:40 - INFO: Val results at epoch 15: Measure (HAD) AUC: 0.841693044396
+08/09/2020 20:46:40 - INFO: Test results at epoch 15: Measure (HAD) AUC: 0.821409247085
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 0 train_loss= 1.37422
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 0 graph_loss= 1.37422
+08/09/2020 20:46:40 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:40 - INFO: Time for Mini batch : 0.0727767944336
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 1 train_loss= 1.37287
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 1 graph_loss= 1.37287
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:41 - INFO: Time for Mini batch : 0.0861129760742
+08/09/2020 20:46:41 - INFO: Time for epoch : 0.15443611145
+08/09/2020 20:46:41 - INFO: Val results at epoch 16: Measure (HAD) AUC: 0.841591591592
+08/09/2020 20:46:41 - INFO: Test results at epoch 16: Measure (HAD) AUC: 0.821285249213
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 0 train_loss= 1.37130
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 0 graph_loss= 1.37130
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:41 - INFO: Time for Mini batch : 0.062175989151
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 1 train_loss= 1.37631
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 1 graph_loss= 1.37631
+08/09/2020 20:46:41 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:41 - INFO: Time for Mini batch : 0.065770149231
+08/09/2020 20:46:41 - INFO: Time for epoch : 0.122416973114
+08/09/2020 20:46:41 - INFO: Val results at epoch 17: Measure (HAD) AUC: 0.841469848227
+08/09/2020 20:46:41 - INFO: Test results at epoch 17: Measure (HAD) AUC: 0.821183796409
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 0 train_loss= 1.36742
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 0 graph_loss= 1.36742
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:42 - INFO: Time for Mini batch : 0.0624589920044
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 1 train_loss= 1.38504
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 1 graph_loss= 1.38504
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:42 - INFO: Time for Mini batch : 0.0623939037323
+08/09/2020 20:46:42 - INFO: Time for epoch : 0.119703054428
+08/09/2020 20:46:42 - INFO: Val results at epoch 18: Measure (HAD) AUC: 0.841408976544
+08/09/2020 20:46:42 - INFO: Test results at epoch 18: Measure (HAD) AUC: 0.821066562058
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 0 train_loss= 1.37614
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 0 graph_loss= 1.37614
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:42 - INFO: Time for Mini batch : 0.0635178089142
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 1 train_loss= 1.37465
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 1 graph_loss= 1.37465
+08/09/2020 20:46:42 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:42 - INFO: Time for Mini batch : 0.0698189735413
+08/09/2020 20:46:42 - INFO: Time for epoch : 0.127518892288
+08/09/2020 20:46:42 - INFO: Val results at epoch 19: Measure (HAD) AUC: 0.841429267105
+08/09/2020 20:46:42 - INFO: Test results at epoch 19: Measure (HAD) AUC: 0.820958345733
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 0 train_loss= 1.37225
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 0 graph_loss= 1.37225
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:43 - INFO: Time for Mini batch : 0.0695979595184
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 1 train_loss= 1.38173
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 1 graph_loss= 1.38173
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:43 - INFO: Time for Mini batch : 0.064239025116
+08/09/2020 20:46:43 - INFO: Time for epoch : 0.129107952118
+08/09/2020 20:46:43 - INFO: Val results at epoch 20: Measure (HAD) AUC: 0.841408976544
+08/09/2020 20:46:43 - INFO: Test results at epoch 20: Measure (HAD) AUC: 0.820823075328
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 0 train_loss= 1.36954
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 0 graph_loss= 1.36954
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:43 - INFO: Time for Mini batch : 0.06285405159
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 1 train_loss= 1.36904
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 1 graph_loss= 1.36904
+08/09/2020 20:46:43 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:43 - INFO: Time for Mini batch : 0.0611040592194
+08/09/2020 20:46:43 - INFO: Time for epoch : 0.118840932846
+08/09/2020 20:46:43 - INFO: Val results at epoch 21: Measure (HAD) AUC: 0.841145199253
+08/09/2020 20:46:43 - INFO: Test results at epoch 21: Measure (HAD) AUC: 0.82071034999
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 0 train_loss= 1.37122
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 0 graph_loss= 1.37122
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:44 - INFO: Time for Mini batch : 0.0651879310608
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 1 train_loss= 1.37445
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 1 graph_loss= 1.37445
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:44 - INFO: Time for Mini batch : 0.0622520446777
+08/09/2020 20:46:44 - INFO: Time for epoch : 0.121836185455
+08/09/2020 20:46:44 - INFO: Val results at epoch 22: Measure (HAD) AUC: 0.841043746449
+08/09/2020 20:46:44 - INFO: Test results at epoch 22: Measure (HAD) AUC: 0.820638205773
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 0 train_loss= 1.37854
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 0 graph_loss= 1.37854
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:44 - INFO: Time for Mini batch : 0.0725140571594
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 1 train_loss= 1.37672
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 1 graph_loss= 1.37672
+08/09/2020 20:46:44 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:44 - INFO: Time for Mini batch : 0.0641300678253
+08/09/2020 20:46:44 - INFO: Time for epoch : 0.130927085876
+08/09/2020 20:46:45 - INFO: Val results at epoch 23: Measure (HAD) AUC: 0.841084327571
+08/09/2020 20:46:45 - INFO: Test results at epoch 23: Measure (HAD) AUC: 0.820602133665
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 0 train_loss= 1.37095
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 0 graph_loss= 1.37095
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:45 - INFO: Time for Mini batch : 0.0716700553894
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 1 train_loss= 1.37005
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 1 graph_loss= 1.37005
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:45 - INFO: Time for Mini batch : 0.0618569850922
+08/09/2020 20:46:45 - INFO: Time for epoch : 0.128175020218
+08/09/2020 20:46:45 - INFO: Val results at epoch 24: Measure (HAD) AUC: 0.841003165327
+08/09/2020 20:46:45 - INFO: Test results at epoch 24: Measure (HAD) AUC: 0.820575079584
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 0 train_loss= 1.38834
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 0 graph_loss= 1.38834
+08/09/2020 20:46:45 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:45 - INFO: Time for Mini batch : 0.0724148750305
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 1 train_loss= 1.38112
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 1 graph_loss= 1.38112
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:46 - INFO: Time for Mini batch : 0.0626001358032
+08/09/2020 20:46:46 - INFO: Time for epoch : 0.129115819931
+08/09/2020 20:46:46 - INFO: Val results at epoch 25: Measure (HAD) AUC: 0.84106403701
+08/09/2020 20:46:46 - INFO: Test results at epoch 25: Measure (HAD) AUC: 0.820568316064
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 0 train_loss= 1.38602
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 0 graph_loss= 1.38602
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:46 - INFO: Time for Mini batch : 0.0636970996857
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 1 train_loss= 1.36035
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 1 graph_loss= 1.36035
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:46 - INFO: Time for Mini batch : 0.0614080429077
+08/09/2020 20:46:46 - INFO: Time for epoch : 0.11989402771
+08/09/2020 20:46:46 - INFO: Val results at epoch 26: Measure (HAD) AUC: 0.841165489814
+08/09/2020 20:46:46 - INFO: Test results at epoch 26: Measure (HAD) AUC: 0.820575079584
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 0 train_loss= 1.37352
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 0 graph_loss= 1.37352
+08/09/2020 20:46:46 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:46 - INFO: Time for Mini batch : 0.0677669048309
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 1 train_loss= 1.37021
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 1 graph_loss= 1.37021
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:47 - INFO: Time for Mini batch : 0.0634260177612
+08/09/2020 20:46:47 - INFO: Time for epoch : 0.125403165817
+08/09/2020 20:46:47 - INFO: Val results at epoch 27: Measure (HAD) AUC: 0.841246652057
+08/09/2020 20:46:47 - INFO: Test results at epoch 27: Measure (HAD) AUC: 0.820543516489
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 0 train_loss= 1.36206
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 0 graph_loss= 1.36206
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:47 - INFO: Time for Mini batch : 0.0654060840607
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 1 train_loss= 1.37454
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 1 graph_loss= 1.37454
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:47 - INFO: Time for Mini batch : 0.0641791820526
+08/09/2020 20:46:47 - INFO: Time for epoch : 0.125767946243
+08/09/2020 20:46:47 - INFO: Val results at epoch 28: Measure (HAD) AUC: 0.841287233179
+08/09/2020 20:46:47 - INFO: Test results at epoch 28: Measure (HAD) AUC: 0.82055704353
+08/09/2020 20:46:47 - INFO: Mini batch Iter: 0 train_loss= 1.37915
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 0 graph_loss= 1.37915
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:48 - INFO: Time for Mini batch : 0.0652170181274
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 1 train_loss= 1.38336
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 1 graph_loss= 1.38336
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:48 - INFO: Time for Mini batch : 0.0624761581421
+08/09/2020 20:46:48 - INFO: Time for epoch : 0.12181186676
+08/09/2020 20:46:48 - INFO: Val results at epoch 29: Measure (HAD) AUC: 0.841287233179
+08/09/2020 20:46:48 - INFO: Test results at epoch 29: Measure (HAD) AUC: 0.820548025503
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 0 train_loss= 1.36879
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 0 graph_loss= 1.36879
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:48 - INFO: Time for Mini batch : 0.06889295578
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 1 train_loss= 1.35786
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 1 graph_loss= 1.35786
+08/09/2020 20:46:48 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:48 - INFO: Time for Mini batch : 0.0678050518036
+08/09/2020 20:46:48 - INFO: Time for epoch : 0.130867958069
+08/09/2020 20:46:48 - INFO: Val results at epoch 30: Measure (HAD) AUC: 0.841266942618
+08/09/2020 20:46:48 - INFO: Test results at epoch 30: Measure (HAD) AUC: 0.820532243956
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 0 train_loss= 1.36831
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 0 graph_loss= 1.36831
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:49 - INFO: Time for Mini batch : 0.0616879463196
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 1 train_loss= 1.37384
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 1 graph_loss= 1.37384
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:49 - INFO: Time for Mini batch : 0.0634391307831
+08/09/2020 20:46:49 - INFO: Time for epoch : 0.120553970337
+08/09/2020 20:46:49 - INFO: Val results at epoch 31: Measure (HAD) AUC: 0.841327814301
+08/09/2020 20:46:49 - INFO: Test results at epoch 31: Measure (HAD) AUC: 0.820572825077
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 0 train_loss= 1.39493
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 0 graph_loss= 1.39493
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:49 - INFO: Time for Mini batch : 0.0611619949341
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 1 train_loss= 1.35260
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 1 graph_loss= 1.35260
+08/09/2020 20:46:49 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:49 - INFO: Time for Mini batch : 0.0625669956207
+08/09/2020 20:46:49 - INFO: Time for epoch : 0.118208646774
+08/09/2020 20:46:49 - INFO: Val results at epoch 32: Measure (HAD) AUC: 0.841206070936
+08/09/2020 20:46:49 - INFO: Test results at epoch 32: Measure (HAD) AUC: 0.820491662834
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 0 train_loss= 1.38140
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 0 graph_loss= 1.38140
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:50 - INFO: Time for Mini batch : 0.0878000259399
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 1 train_loss= 1.36082
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 1 graph_loss= 1.36082
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:50 - INFO: Time for Mini batch : 0.061320066452
+08/09/2020 20:46:50 - INFO: Time for epoch : 0.143473863602
+08/09/2020 20:46:50 - INFO: Val results at epoch 33: Measure (HAD) AUC: 0.841226361497
+08/09/2020 20:46:50 - INFO: Test results at epoch 33: Measure (HAD) AUC: 0.820426282138
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 0 train_loss= 1.38822
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 0 graph_loss= 1.38822
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:50 - INFO: Time for Mini batch : 0.062609910965
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 1 train_loss= 1.37652
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 1 graph_loss= 1.37652
+08/09/2020 20:46:50 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:50 - INFO: Time for Mini batch : 0.0673749446869
+08/09/2020 20:46:50 - INFO: Time for epoch : 0.124108076096
+08/09/2020 20:46:51 - INFO: Val results at epoch 34: Measure (HAD) AUC: 0.841226361497
+08/09/2020 20:46:51 - INFO: Test results at epoch 34: Measure (HAD) AUC: 0.820412755097
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 0 train_loss= 1.36614
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 0 graph_loss= 1.36614
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:51 - INFO: Time for Mini batch : 0.0718569755554
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 1 train_loss= 1.37757
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 1 graph_loss= 1.37757
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:51 - INFO: Time for Mini batch : 0.0614020824432
+08/09/2020 20:46:51 - INFO: Time for epoch : 0.128096818924
+08/09/2020 20:46:51 - INFO: Val results at epoch 35: Measure (HAD) AUC: 0.841327814301
+08/09/2020 20:46:51 - INFO: Test results at epoch 35: Measure (HAD) AUC: 0.820457845233
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 0 train_loss= 1.35863
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 0 graph_loss= 1.35863
+08/09/2020 20:46:51 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:51 - INFO: Time for Mini batch : 0.0698750019073
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 1 train_loss= 1.37954
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 1 graph_loss= 1.37954
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:52 - INFO: Time for Mini batch : 0.0615799427032
+08/09/2020 20:46:52 - INFO: Time for epoch : 0.125918865204
+08/09/2020 20:46:52 - INFO: Val results at epoch 36: Measure (HAD) AUC: 0.841266942618
+08/09/2020 20:46:52 - INFO: Test results at epoch 36: Measure (HAD) AUC: 0.82046686326
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 0 train_loss= 1.35243
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 0 graph_loss= 1.35243
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:52 - INFO: Time for Mini batch : 0.0723190307617
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 1 train_loss= 1.38786
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 1 graph_loss= 1.38786
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:52 - INFO: Time for Mini batch : 0.0625791549683
+08/09/2020 20:46:52 - INFO: Time for epoch : 0.129370212555
+08/09/2020 20:46:52 - INFO: Val results at epoch 37: Measure (HAD) AUC: 0.841206070936
+08/09/2020 20:46:52 - INFO: Test results at epoch 37: Measure (HAD) AUC: 0.820505189875
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 0 train_loss= 1.37381
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 0 graph_loss= 1.37381
+08/09/2020 20:46:52 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:52 - INFO: Time for Mini batch : 0.0626389980316
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 1 train_loss= 1.37883
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 1 graph_loss= 1.37883
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:53 - INFO: Time for Mini batch : 0.0633451938629
+08/09/2020 20:46:53 - INFO: Time for epoch : 0.123003959656
+08/09/2020 20:46:53 - INFO: Val results at epoch 38: Measure (HAD) AUC: 0.841348104862
+08/09/2020 20:46:53 - INFO: Test results at epoch 38: Measure (HAD) AUC: 0.820599879158
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 0 train_loss= 1.37907
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 0 graph_loss= 1.37907
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:53 - INFO: Time for Mini batch : 0.0644371509552
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 1 train_loss= 1.37252
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 1 graph_loss= 1.37252
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:53 - INFO: Time for Mini batch : 0.0643291473389
+08/09/2020 20:46:53 - INFO: Time for epoch : 0.124063968658
+08/09/2020 20:46:53 - INFO: Val results at epoch 39: Measure (HAD) AUC: 0.841510429348
+08/09/2020 20:46:53 - INFO: Test results at epoch 39: Measure (HAD) AUC: 0.820672023375
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 0 train_loss= 1.35555
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 0 graph_loss= 1.35555
+08/09/2020 20:46:53 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:53 - INFO: Time for Mini batch : 0.0638771057129
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 1 train_loss= 1.37273
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 1 graph_loss= 1.37273
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:54 - INFO: Time for Mini batch : 0.0630440711975
+08/09/2020 20:46:54 - INFO: Time for epoch : 0.123758077621
+08/09/2020 20:46:54 - INFO: Val results at epoch 40: Measure (HAD) AUC: 0.841571301031
+08/09/2020 20:46:54 - INFO: Test results at epoch 40: Measure (HAD) AUC: 0.820739658577
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 0 train_loss= 1.41115
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 0 graph_loss= 1.41115
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:54 - INFO: Time for Mini batch : 0.108736038208
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 1 train_loss= 1.36663
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 1 graph_loss= 1.36663
+08/09/2020 20:46:54 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:54 - INFO: Time for Mini batch : 0.084333896637
+08/09/2020 20:46:54 - INFO: Time for epoch : 0.185503005981
+08/09/2020 20:46:54 - INFO: Val results at epoch 41: Measure (HAD) AUC: 0.841611882152
+08/09/2020 20:46:54 - INFO: Test results at epoch 41: Measure (HAD) AUC: 0.820771221672
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 0 train_loss= 1.37191
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 0 graph_loss= 1.37191
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:55 - INFO: Time for Mini batch : 0.066241979599
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 1 train_loss= 1.35802
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 1 graph_loss= 1.35802
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:55 - INFO: Time for Mini batch : 0.0626299381256
+08/09/2020 20:46:55 - INFO: Time for epoch : 0.123520851135
+08/09/2020 20:46:55 - INFO: Val results at epoch 42: Measure (HAD) AUC: 0.841713334957
+08/09/2020 20:46:55 - INFO: Test results at epoch 42: Measure (HAD) AUC: 0.820782494206
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 0 train_loss= 1.34705
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 0 graph_loss= 1.34705
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:55 - INFO: Time for Mini batch : 0.0624680519104
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 1 train_loss= 1.37019
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 1 graph_loss= 1.37019
+08/09/2020 20:46:55 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:55 - INFO: Time for Mini batch : 0.126865148544
+08/09/2020 20:46:55 - INFO: Time for epoch : 0.18456196785
+08/09/2020 20:46:56 - INFO: Val results at epoch 43: Measure (HAD) AUC: 0.841814787761
+08/09/2020 20:46:56 - INFO: Test results at epoch 43: Measure (HAD) AUC: 0.820802784767
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 0 train_loss= 1.35809
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 0 graph_loss= 1.35809
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:56 - INFO: Time for Mini batch : 0.107084989548
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 1 train_loss= 1.36734
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 1 graph_loss= 1.36734
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:56 - INFO: Time for Mini batch : 0.0616109371185
+08/09/2020 20:46:56 - INFO: Time for epoch : 0.162286996841
+08/09/2020 20:46:56 - INFO: Val results at epoch 44: Measure (HAD) AUC: 0.841774206639
+08/09/2020 20:46:56 - INFO: Test results at epoch 44: Measure (HAD) AUC: 0.820829838848
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 0 train_loss= 1.36661
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 0 graph_loss= 1.36661
+08/09/2020 20:46:56 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:56 - INFO: Time for Mini batch : 0.0635409355164
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 1 train_loss= 1.35438
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 1 graph_loss= 1.35438
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:57 - INFO: Time for Mini batch : 0.062451839447
+08/09/2020 20:46:57 - INFO: Time for epoch : 0.120097875595
+08/09/2020 20:46:57 - INFO: Val results at epoch 45: Measure (HAD) AUC: 0.8417944972
+08/09/2020 20:46:57 - INFO: Test results at epoch 45: Measure (HAD) AUC: 0.820865910956
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 0 train_loss= 1.39055
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 0 graph_loss= 1.39055
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:57 - INFO: Time for Mini batch : 0.0652689933777
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 1 train_loss= 1.37709
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 1 graph_loss= 1.37709
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:57 - INFO: Time for Mini batch : 0.0913169384003
+08/09/2020 20:46:57 - INFO: Time for epoch : 0.150781869888
+08/09/2020 20:46:57 - INFO: Val results at epoch 46: Measure (HAD) AUC: 0.841956821687
+08/09/2020 20:46:57 - INFO: Test results at epoch 46: Measure (HAD) AUC: 0.820922273625
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 0 train_loss= 1.39960
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 0 graph_loss= 1.39960
+08/09/2020 20:46:57 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:57 - INFO: Time for Mini batch : 0.0666151046753
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 1 train_loss= 1.38340
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 1 graph_loss= 1.38340
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:58 - INFO: Time for Mini batch : 0.0627000331879
+08/09/2020 20:46:58 - INFO: Time for epoch : 0.123620033264
+08/09/2020 20:46:58 - INFO: Val results at epoch 47: Measure (HAD) AUC: 0.841855368882
+08/09/2020 20:46:58 - INFO: Test results at epoch 47: Measure (HAD) AUC: 0.820892965037
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 0 train_loss= 1.38067
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 0 graph_loss= 1.38067
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:58 - INFO: Time for Mini batch : 0.0667860507965
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 1 train_loss= 1.36221
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 1 graph_loss= 1.36221
+08/09/2020 20:46:58 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:58 - INFO: Time for Mini batch : 0.0609560012817
+08/09/2020 20:46:58 - INFO: Time for epoch : 0.12554192543
+08/09/2020 20:46:58 - INFO: Val results at epoch 48: Measure (HAD) AUC: 0.841814787761
+08/09/2020 20:46:58 - INFO: Test results at epoch 48: Measure (HAD) AUC: 0.820868165463
+08/09/2020 20:46:59 - INFO: Mini batch Iter: 0 train_loss= 1.36060
+08/09/2020 20:46:59 - INFO: Mini batch Iter: 0 graph_loss= 1.36060
+08/09/2020 20:46:59 - INFO: Mini batch Iter: 0 reg_loss= 0.00000
+08/09/2020 20:46:59 - INFO: Time for Mini batch : 0.115256071091
+08/09/2020 20:46:59 - INFO: Mini batch Iter: 1 train_loss= 1.37453
+08/09/2020 20:46:59 - INFO: Mini batch Iter: 1 graph_loss= 1.37453
+08/09/2020 20:46:59 - INFO: Mini batch Iter: 1 reg_loss= 0.00000
+08/09/2020 20:46:59 - INFO: Time for Mini batch : 0.0609109401703
+08/09/2020 20:46:59 - INFO: Time for epoch : 0.171367883682
+08/09/2020 20:46:59 - INFO: Val results at epoch 49: Measure (HAD) AUC: 0.841733625517
+08/09/2020 20:46:59 - INFO: Test results at epoch 49: Measure (HAD) AUC: 0.820816311807
+08/09/2020 20:46:59 - INFO: Best epoch 1
+08/09/2020 20:46:59 - INFO: Best epoch val results defaultdict(<function <lambda> at 0x7f41ac1f3578>, {'HAD': [0.8453859264670076, 0.7612612612612613, 0.8415930801799661], 'SIGMOID': [0.8430525119714309, 0.7612612612612613, 0.8406263203276326]})
+
+08/09/2020 20:46:59 - INFO: Best epoch test results defaultdict(<function <lambda> at 0x7f41ac1f35f0>, {'HAD': [0.8227281335389443, 0.7357357357357357, 0.8097218518974756], 'SIGMOID': [0.8217440413386359, 0.7357357357357357, 0.80873324321228]})
+

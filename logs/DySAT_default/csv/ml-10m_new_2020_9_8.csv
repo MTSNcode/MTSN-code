@@ -1,0 +1,9 @@
+motif_number: 8	use motif: True
+ml-10m_new,2,default,HAD,test,AUC/f1/pr,0.921725,0.8775,0.925662865479,348.875471115
+ml-10m_new,2,default,SIGMOID,test,AUC/f1/pr,0.9201375,0.8775,0.925592993812,348.875471115
+motif_number: 8	use motif: True
+ml-10m_new,2,default,HAD,test,AUC/f1/pr,0.91521875,0.88,0.940972044558,294.590327024
+ml-10m_new,2,default,SIGMOID,test,AUC/f1/pr,0.915959375,0.8825,0.941735518146,294.590327024
+motif_number: 8	use motif: False
+ml-10m_new,3,default,HAD,test,AUC/f1/pr,0.920931168052,0.867783985102,0.940297258424,231.145611048
+ml-10m_new,3,default,SIGMOID,test,AUC/f1/pr,0.920997055856,0.867783985102,0.940491440874,231.145611048
