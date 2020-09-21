@@ -111,10 +111,10 @@ parser.add_argument('--window', type=int, nargs='?', default=-1,
 parser.add_argument('--use_motifs', type=str, nargs='?', default="TRUE",
                     help='Use motifs or not')
 
-parser.add_argument('--sgc_degree', type=int, nargs='?', default=3,
+parser.add_argument('--sgc_degree', type=int, nargs='?', default=2,
                     help='Number of sgc layer')
 
-parser.add_argument('--TIME_degree', type=int, nargs='?', default=4,
+parser.add_argument('--TIME_degree', type=int, nargs='?', default=3,
                     help='Number of TIME layer')
 
 args = parser.parse_args()
