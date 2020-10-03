@@ -51,7 +51,7 @@ Parameters not mentioned in the paper have NO effect in this Implementation.
 ### Logging Directory
 
 For logging, the ``model`` flag should be provided to specify the variant/version of the experimented model 
-(initially set to ``default``), in addition to choosing ``base_model`` as DySAT or IncSAT.
+(initially set to ``default``), in addition to choosing ``base_model`` as TIME.
 
 A logging directory ``log_dir`` is then created at ``./logs/<base_model>_<model>/``, overwriting any existing files that might conflict.
 
